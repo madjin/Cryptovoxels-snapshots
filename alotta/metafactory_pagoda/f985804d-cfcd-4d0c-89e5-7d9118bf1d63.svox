@@ -1,0 +1,6 @@
+model
+size = 32 1 32, scale = 0.05, origin = -y
+material 
+  colors = A:#EEE
+voxels
+-1023A

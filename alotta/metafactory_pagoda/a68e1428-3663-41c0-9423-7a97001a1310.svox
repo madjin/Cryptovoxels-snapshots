@@ -1,0 +1,6 @@
+model
+size = 32 6 5, scale = 0.05, origin = -y
+material 
+  colors = A:#00FDC3
+voxels
+A30-3A29-A64-A63-A30-2A30-2(A31-)2A30-A31-2(2A30-)A64-A62-34A2(4-A)5-6A2(4-A)64-A12-A5-A25-7A11-34A2(4-A)5-3(A4-)A64-3A4-7A5-8A7-6A18-6A
