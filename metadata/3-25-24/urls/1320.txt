@@ -1,0 +1,5 @@
+https://swooty.dev/voxels/EVS0002_Godrick_Megavoxel_80_80_80.vox
+https://swooty.dev/voxels/EVS0006_Nature_Megavoxel_100_100_100.vox
+https://swooty.dev/voxels/EVS0004_CHET_Megavoxel_126_126_126.vox
+https://swooty.dev/voxels/EVS0003_Pranksy_Megavoxel_50_50_50.vox
+https://swooty.dev/voxels/EVS0001_Lord_Zieg_Megavoxel_50_50_50.vox

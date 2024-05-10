@@ -1,0 +1,5 @@
+https://media.crvox.com/0xcD94D3Aa70986658D876ed6497636167014b1d1e/1623025314963-a9adbfb1-fb13-4adc-86fe-5a19caa6aaa5.png
+https://opensea.io/assets/0x9126b817ccca682beaa9f4eae734948ee1166af1/10012
+https://opensea.io/assets/0x6d4530149e5b4483d2f7e60449c02570531a0751/16566
+https://voxels123.s3-us-west-2.amazonaws.com/buildings/boat.vox
+https://gateway.pinata.cloud/ipfs/Qma9JQquZHsGd5vkGEsy3GFggWCCPwrfWHmiQMvEuKT83Q/57BLOCK.vox

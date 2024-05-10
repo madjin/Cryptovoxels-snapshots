@@ -1,0 +1,3 @@
+https://cdn.jsdelivr.net/gh/BabylonJS/Brand-Toolkit@8583d4d9bf252a233fa480fa02ac6f367d5207a1/babylon_logo/fullColor/babylon_logo_color.png
+https://www.babylonjs.com/assets/
+https://www.babylonjs.com/assets/img/Page_Logo.svg

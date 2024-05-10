@@ -1,0 +1,6 @@
+https://s3.spyduck.net/assets/room/vox/faces/buddha.vox
+https://s3.spyduck.net/assets/room/vox/faces/george.vox
+https://s3.spyduck.net/assets/room/vox/faces/elaine.vox
+https://s3.spyduck.net/assets/room/vox/faces/jerry.vox?0
+https://s3.spyduck.net/assets/room/vox/faces/kramer.vox?0
+https://s3.spyduck.net/assets/room/vox/faces/buddha.vox
