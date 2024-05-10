@@ -1,0 +1,4 @@
+https://wiki.cryptovoxels.com/simple_white_door-centered.vox
+https://wiki.cryptovoxels.com/vox_library/pressure-plate.vox
+https://wiki.cryptovoxels.com/tall_tree.vox
+https://wiki.cryptovoxels.com/monitor.vox

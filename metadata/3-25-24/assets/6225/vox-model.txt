@@ -1,0 +1,7 @@
+https://wiki.cryptovoxels.com/wooden_trap_door.vox
+https://wiki.cryptovoxels.com/metal_security_door.vox
+https://wiki.cryptovoxels.com/small_shelf_with_tv.vox
+https://wiki.cryptovoxels.com/warning_pole_sign.vox
+https://wiki.cryptovoxels.com/desk_chair.vox
+https://wiki.cryptovoxels.com/no_access_fence.vox
+https://wiki.cryptovoxels.com/vendingmachine.vox

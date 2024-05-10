@@ -1,0 +1,5 @@
+https://gateway.pinata.cloud/ipfs/Qmcuo538xpci5zhAmoEM2bGio3iCGegaoXiShpQ9HTjtqk/Museumsraumv1-0-Museumsraum.vox
+https://gateway.pinata.cloud/ipfs/QmU9VmZ7Hg3gPDD2rcuJfxhQrbWe42P2LLBdzgboPUNGhg/Abgu%C3%9Fsammlung3-0-Abgusssammmlung.vox
+https://gateway.pinata.cloud/ipfs/Qmf6crdVvb2yQ81eZ53FwDobgQSHWSymVfgn3xwfckpHJq/Abgu%C3%9Fraumecke-0-AbgussRaumecke.vox
+https://gateway.pinata.cloud/ipfs/QmVutsGZymrsJ1CD8wMX5ibaCxQ3g8eQGXV9PKQRRE2VeK/gro%C3%9FRaumMitteoffen.vox
+https://gateway.pinata.cloud/ipfs/QmVvSAQ3A3az9zb4vMSg7K4mkPsf8e2YxZhTx4pceqGJMs/Abgu%C3%9Fsammlung2.vox

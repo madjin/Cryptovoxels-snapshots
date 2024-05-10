@@ -1,0 +1,13 @@
+https://gateway.pinata.cloud/ipfs/QmXP8ZY8eAuSRuag2eeHsa388fNueMRDzMSvXWGeFY9ffA/pianobench_v1.vox
+https://gateway.pinata.cloud/ipfs/QmdcJeknefmMtDTrqn5HmuE1oZj7D5untevXbE1nq5qWcF/palmtree_v1.vox
+https://gateway.pinata.cloud/ipfs/QmYmxybAS3aSx6j1PmXubfKBB4wP5MokxtaVJFCgTZ8wV6/pedestal_v2.vox
+https://wiki.cryptovoxels.com/ceiling_simple_lamp.vox
+https://wiki.cryptovoxels.com/thin_black_picture_frame.vox
+https://gateway.pinata.cloud/ipfs/QmTG2NPGm38DMviTLU2fwCKxgJpc9WjP5Nnnd1PgNDNP2d/piano_v1.vox
+https://gateway.pinata.cloud/ipfs/QmQ5mYudDpXTfwAFTa7toMovizAZ7H4Jhs71mv62JfzMqb/planter_v1.vox
+https://wiki.cryptovoxels.com/bent_lamp_dark.vox
+https://wiki.cryptovoxels.com/potted_cactus.vox
+https://wiki.cryptovoxels.com/small_apple_tree.vox
+https://wiki.cryptovoxels.com/potted_flower.vox
+https://gateway.pinata.cloud/ipfs/QmZ8Ni5KPnNpNt9YEEaYYK6bPdRDqdKSKUfDW5bJibsr6i/3DVoxelPunk1753/3DVoxelPunk1753Head.vox
+https://wiki.cryptovoxels.com/bench_-_no_back_(white).vox

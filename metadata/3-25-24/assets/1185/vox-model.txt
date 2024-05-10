@@ -1,0 +1,5 @@
+https://ostachowski.com/projects/2019-cryptovoxels/plant1.vox
+https://ostachowski.com/projects/2019-cryptovoxels/lamp.vox
+https://ostachowski.com/projects/2019-cryptovoxels/pillar.vox
+https://ostachowski.com/projects/2019-cryptovoxels/mlochair.vox
+http://ostachowski.com/projects/2019-cryptovoxels/roof.vox

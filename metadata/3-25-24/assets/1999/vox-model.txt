@@ -1,0 +1,7 @@
+https://gateway.pinata.cloud/ipfs/QmS3671aTcr8NJrfvKYfD9sSnCcq66vhTC4YKyVG55h4k6/posterTop.vox
+https://media.crvox.com/0x75d91aeba639d7a8bee823a02d3d4c4095f01e05/1647589955888-1de5e4c0-201a-460f-9e29-73fd5651634f.vox
+https://gateway.pinata.cloud/ipfs/Qmapc1m4QLdhGCUzSsK4JbJbTUonbFgQ44butc2kaSasEF
+https://media.crvox.com/0x75d91aeba639d7a8bee823a02d3d4c4095f01e05/1647590007237-9017e940-74a5-47ab-b6d3-81440c4175bf.vox
+https://gateway.pinata.cloud/ipfs/QmNu4TSpYMq3aEr3iKGrdUDK9Ryx79KF8UNjtAxGyHtjJJ/posterBottom.vox
+https://media.crvox.com/0x289314cd8d5147e32ce3f32fd030467df92d57a7/1638007435972-5434a150-dc94-4d8c-be35-f0967c67fb7b.vox
+https://media.crvox.com/0x289314cd8d5147e32ce3f32fd030467df92d57a7/1637597124589-f32e12a9-d1dd-4ceb-b572-ecdf9b51ca63.vox

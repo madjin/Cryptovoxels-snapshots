@@ -1,0 +1,3 @@
+https://gateway.pinata.cloud/ipfs/QmVwQAmmsdtFEwiDp5o32cz984VVakp5AeVEaKdS9ZbrQK/frames1.vox
+https://wiki.cryptovoxels.com/ceilinglamp.vox
+https://gateway.pinata.cloud/ipfs/QmZazqpwr44WQWTfdQQir5MsBwjjEKKH2x7u71KwfChiaB/benchy.vox

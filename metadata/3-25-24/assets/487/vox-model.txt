@@ -1,0 +1,2 @@
+https://s3.spyduck.net/assets/room/vox/garden_urn_32x.vox
+https://s3.spyduck.net/assets/room/vox/hedge.vox

@@ -1,0 +1,4 @@
+https://gateway.pinata.cloud/ipfs/QmNYuWsSenWo1FhPrr9v6z9U2HStNDgEZhiz9FutxPjTEf/loveseat.vox
+https://gateway.pinata.cloud/ipfs/QmTHGLmcCsTA3LicEk94ndoSc6f9TnTgGrF8yuH5v9i6ed/ramps.vox
+https://wiki.cryptovoxels.com/french_door.vox
+https://wiki.cryptovoxels.com/lampost_oil.vox

@@ -1,0 +1,4 @@
+https://gateway.pinata.cloud/ipfs/QmUeqZPk55fT97LAUAXqu2b1pzBsP5MGU5hZVVcAoXEJfY/hottub.vox
+https://gateway.pinata.cloud/ipfs/QmRe1UCSv3ctXPbbHXdwFscYeGRKKMjxVoGhSPeEDpGy8y/elevator.vox
+https://gateway.pinata.cloud/ipfs/QmWY6XafXHz4yQGh3XkZ3dhMotWQcVUTDv5hSHZWp6QxhG/fence.vox
+https://gateway.pinata.cloud/ipfs/QmQhGk2SKzhikB6Y6o7yY9skLXibmKxtL7giF815YbU5xi/corner.vox

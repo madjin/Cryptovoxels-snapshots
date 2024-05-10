@@ -1,0 +1,8 @@
+https://wiki.cryptovoxels.com/ceiling_simple_lamp.vox
+https://media.crvox.com/0x5b6df4d149658f7fdc6fd51e0f09b460d7a6305e/bar_chair_2_16x32x19_166_colors_6a6f25e354f1f03bbf63cfcad4bba769.vox
+https://wiki.cryptovoxels.com/metal_fence.vox
+https://media.crvox.com/0x5b6df4d149658f7fdc6fd51e0f09b460d7a6305e/VRTE_wood_table_32x32_Wood_58ee84f70f5de6af46e08a75d41736f6.vox
+https://media.crvox.com/0x5b6df4d149658f7fdc6fd51e0f09b460d7a6305e/uploads_files_1938755_kaustby_14x32x18_47_colors_4c6b9d655afa05c70a56a135a87546ff.vox
+https://wiki.cryptovoxels.com/bench_-_no_back_(white).vox
+https://wiki.cryptovoxels.com/metal_fence_corner.vox
+https://wiki.cryptovoxels.com/vox_library/simple_white_frame.vox

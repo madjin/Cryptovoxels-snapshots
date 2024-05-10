@@ -1,0 +1,6 @@
+http://hoststrong.com/cryptovoxels/castleroad.vox
+https://wiki.cryptovoxels.com/corner_wooden_table.vox
+https://wiki.cryptovoxels.com/seagull.vox
+corner_wooden_table.vox
+https://wiki.cryptovoxels.com/treasure_chest.vox
+https://wiki.cryptovoxels.com/golden_slope_picture_frame.vox

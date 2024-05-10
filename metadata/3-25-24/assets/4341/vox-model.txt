@@ -1,0 +1,12 @@
+https://cdn.discordapp.com/attachments/831717533299638272/832304134933315584/PILLAR-BASE.vox
+https://gateway.pinata.cloud/ipfs/QmUwtate19HwRZ1EHBeWgVZPKhpZcaUGWF2cHPKKN5izxq/HalfRedBarrier.vox
+https://gateway.pinata.cloud/ipfs/Qmbuc9yBgJmjXQMtKxV96aadwwvAKFFouwFRHJNgeeW56P/PoleBase.vox
+https://gateway.pinata.cloud/ipfs/QmSjbkujjN4Ab6VjhEnPQQsuttrskNEZStjs9KsyghQC1E/PoleTopEnd.vox
+https://gateway.pinata.cloud/ipfs/QmVnnTB5Uvh1Uwrfhd7q4NYpiJLuANDcMxfvviYZPA4Skg/RoofTopSign-B.vox
+https://gateway.pinata.cloud/ipfs/QmSChBCjgasAPHU657TRMUeG3z9yzz8Sra3UiCwmTR8WQz/ChairDirector.vox
+https://media.crvox.com/0x5a9b8026032db575b2b42af7853df193ad9adb25/Lilie_05134adafbe228eaebfee549e9349b25.vox
+https://gateway.pinata.cloud/ipfs/QmZgZRmtB54CbdN85D6anDa6pzDFpib2EVzdjj4A7EfsYn/PoleTop.vox
+https://gateway.pinata.cloud/ipfs/QmPzXw9CfoRvnutQX7ar4Y9nn2b3TAPFnYkxJrXLk6KCXv/Tripod%20Camera.vox
+https://gateway.pinata.cloud/ipfs/QmQ1bgCRen1tQKNtUyxSrwJLoBNZTdLcVnvw6fcmLp5XDC/RoofTopSign-A.vox
+https://gateway.pinata.cloud/ipfs/QmViY9F9Xc4LZPeAvqEYJNULycnPqLdM8hVZyoonsYwAfR/RoofTopSign-C.vox
+https://gateway.pinata.cloud/ipfs/QmT3e7BejquRCnvPCrUQgneFVehT38ww97QWXMUG8xdVVx/CinemaCamera.vox

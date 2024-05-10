@@ -1,0 +1,5 @@
+https://gateway.pinata.cloud/ipfs/QmSfb9cVRFHv7wmoRXaybZrR56BzPg8ZqE4QsUH33Gt9zo/WhiteSquare.jpg
+https://gateway.pinata.cloud/ipfs/QmVHzvT4fYvzmAJWEDYNDq33VZwAzhQ6ws8hfvTrnPvJHy/ColorTherapy.gif
+https://cdn.discordapp.com/attachments/883092287826047007/918558347874152468/WIP_12.9_1.png
+https://gateway.pinata.cloud/ipfs/QmfNx2GSiqmjb4DgV14TeGEcQXCB9PPShCUcwHFGMGo83g/RainbowCone12fps.gif
+https://gateway.pinata.cloud/ipfs/QmRpPFKARHehz3mtLQwbAAUrRqarNkHmTn42NbEDAFjkBG/RainbowGradient12fps.gif

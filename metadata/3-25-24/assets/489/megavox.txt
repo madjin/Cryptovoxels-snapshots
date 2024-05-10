@@ -1,0 +1,4 @@
+https://garethcryptovoxels.s3.us-east-2.amazonaws.com/Voxels/hirotree.vox
+https://cdn.discordapp.com/attachments/754447466753163264/837369592052973638/MV_Coco_Guitar_Strings_Gold.vox
+https://cdn.discordapp.com/attachments/754447466753163264/836992370565316608/MV_CactusTall_2_Prong.vox
+https://cdn.discordapp.com/attachments/754447466753163264/838450603780341830/MV_Chandlier_Triple_Modern.vox

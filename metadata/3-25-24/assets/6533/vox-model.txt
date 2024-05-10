@@ -1,0 +1,11 @@
+https://wiki.cryptovoxels.com/small-table.vox
+https://wiki.cryptovoxels.com/beer_bottled.vox
+https://media.crvox.com/0xf25ad24b791e37e83f4dadfe212e0e9bb45a1f8b/Champagne_167e9d12caf168bb90db20cbbdc7ef25.vox
+https://media.crvox.com/0x4e012D25472225f3385baa43ED64DfEC5885c51d/1623707545856-088c568a-5111-4c17-bbb5-7c09149987b4.vox
+https://media.crvox.com/0xb7d3a787a39f25457ca511dc3f0591b546f5e02f/1638205502167-44be9188-59cc-4445-9115-7e4c80c9e433.vox
+https://media.crvox.com/0xf25ad24b791e37e83f4dadfe212e0e9bb45a1f8b/Ricky-Toad_70bd3913eef84aab2d8a3faa585fe795.vox
+https://wiki.cryptovoxels.com/palm_tree.vox
+https://media.crvox.com/0xf25ad24b791e37e83f4dadfe212e0e9bb45a1f8b/PurpleGlass_1878b0eb5c990aaf925279966902e0e3.vox
+https://media.crvox.com/0xf25ad24b791e37e83f4dadfe212e0e9bb45a1f8b/PinkGlass_acfa78e127efc7b6ec337adf9a25f5b4.vox
+https://media.crvox.com/0x353f6124e6316cc19f0f0c4335bdfa1b268071b3/1652998365508-774a9e7b-1707-40e7-bdb9-c7e44abc9e7b.vox
+https://media.crvox.com/0x353f6124e6316cc19f0f0c4335bdfa1b268071b3/1653173192982-ee6359b3-466e-4147-83c6-b356e63c5a74.vox

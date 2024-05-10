@@ -1,0 +1,14 @@
+https://wiki.cryptovoxels.com/arcade_2p.vox
+https://cdn.discordapp.com/attachments/702514599009976410/742184420492181544/Plant-JV-20202-red.vox
+https://media.crvox.com/0x7b19b42564ad1c03625e8306cf20deea2f923a67/1641177161009-85304b81-0afa-4a68-9da2-ea36ade82b94.vox
+https://media.crvox.com/0x3ad0bd16800a6ce1e62b8cb1eb349d5e9964fa0e/1654018410939-df9c0491-9419-4026-9730-f1be4b39338b.vox
+https://media.crvox.com/0x3ad0bd16800a6ce1e62b8cb1eb349d5e9964fa0e/1654018644309-fb22b019-5bc7-47fb-9dc7-326f36b58f6c.vox
+https://wiki.cryptovoxels.com/metal_fence.vox
+https://wiki.cryptovoxels.com/monitor.vox
+https://media.crvox.com/0x289314cd8d5147e32ce3f32fd030467df92d57a7/1641764665866-e7c1d611-9bae-46e1-a510-234ae50b1cb8.vox
+https://media.crvox.com/0xf75341b90b8beb9f93c50facb92bc552f20797bb/1646274761156-1a367ff6-fda5-45a6-91f7-9915353349c1.vox
+https://media.crvox.com/0x3ad0bd16800a6ce1e62b8cb1eb349d5e9964fa0e/1654018521329-fa775e6d-47ef-4d54-841d-1cf83bd022c2.vox
+https://media.crvox.com/0x289314cd8d5147e32ce3f32fd030467df92d57a7/1640089714689-290d45b9-16ce-483c-8e31-2fa2a1e1cbba.vox
+https://wiki.cryptovoxels.com/no_access_fence.vox
+https://media.crvox.com/0x3ad0bd16800a6ce1e62b8cb1eb349d5e9964fa0e/1653844316496-8256dcbd-8652-4f6c-b0bd-6930c78a51ef.vox
+https://wiki.cryptovoxels.com/light_wooden_stool.vox

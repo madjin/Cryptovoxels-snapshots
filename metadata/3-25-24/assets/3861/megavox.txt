@@ -1,0 +1,3 @@
+https://gateway.pinata.cloud/ipfs/QmXJNWr6Pqb8PpokK8NFJrphFXz8nve7VfJtUEfY8W8GpD/gondola3.vox
+https://gateway.pinata.cloud/ipfs/QmNvSKrTDtVJx7Ec22eNhxqvaEE7zCNaHyvt7zZYPKp32L/trashcan.vox
+https://gateway.pinata.cloud/ipfs/QmcLsTpb9o3bA7pKn33kfAZ72evuojbz8vLKbZs37THzW9/voxelboardz.vox

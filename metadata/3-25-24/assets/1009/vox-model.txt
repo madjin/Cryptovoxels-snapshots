@@ -1,0 +1,6 @@
+http://www.myphspace.co/vx/infinft/stg32b.vox
+http://www.myphspace.co/vx/infinft/base.vox
+http://www.myphspace.co/vx/infinft/terminal-1.vox
+http://www.myphspace.co/vx/infinft/terminal-0.vox
+http://www.myphspace.co/vx/infinft/stg32W.vox
+http://www.myphspace.co/vx/infinft/bvx2.vox

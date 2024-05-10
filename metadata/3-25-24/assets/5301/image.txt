@@ -1,0 +1,3 @@
+https://eboy.s3.us-west-1.amazonaws.com/sandbox/cryptovoxels/images/24x4-EBOY-003k%4050x.png
+https://eboy.s3.us-west-1.amazonaws.com/sandbox/cryptovoxels/images/24x4-EBOY-001k%4050x.png
+https://eboy.s3.us-west-1.amazonaws.com/sandbox/cryptovoxels/images/24x4-EBOY-002k%4050x.png

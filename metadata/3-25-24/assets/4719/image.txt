@@ -1,0 +1,8 @@
+http://r-cv-api.org/hello/plot_gapminder
+https://media.discordapp.net/attachments/636682218554785803/943623606162817034/Teleport_3M.png?width=587&height=586
+http://165.232.158.173/voxels/plot?num_input=50
+https://media.discordapp.net/attachments/636682218554785803/941562229378125844/Teleport_3.png?width=338&height=338
+https://media.discordapp.net/attachments/636682218554785803/941562228958724106/Teleport_1.png?width=338&height=338
+http://165.232.158.173/voxels/rayvertex_test
+http://r-cv-api.org/hello/map
+https://media.discordapp.net/attachments/636682218554785803/941562229181018132/Teleport_2.png?width=338&height=338

@@ -1,0 +1,15 @@
+https://wiki.cryptovoxels.com/arcade_2p.vox
+https://wiki.cryptovoxels.com/camera.vox
+https://wiki.cryptovoxels.com/wavy_sand.vox
+https://wiki.cryptovoxels.com/simple_metal_door.vox
+https://wiki.cryptovoxels.com/wall_light_bulb.vox
+https://wiki.cryptovoxels.com/sun_shader.vox
+https://media-crvox.sfo2.digitaloceanspaces.com/0x7b511800a8d8e7de24dd19de3103081824b6f41d/BrookBench (Pride Edition 22)_63a8e06f2553729040e384816227df97.vox
+https://wiki.cryptovoxels.com/seagull.vox
+https://wiki.cryptovoxels.com/wooden_bench.vox
+https://wiki.cryptovoxels.com/straight_dark_curtain_attached.vox
+https://wiki.cryptovoxels.com/palm_tree.vox
+https://wiki.cryptovoxels.com/treasure_chest.vox
+https://wiki.cryptovoxels.com/cat.vox
+https://wiki.cryptovoxels.com/urinal_by_lorex.vox
+https://wiki.cryptovoxels.com/tall_tree.vox

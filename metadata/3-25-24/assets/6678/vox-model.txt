@@ -1,0 +1,5 @@
+https://wiki.cryptovoxels.com/metal_fence.vox
+https://wiki.cryptovoxels.com/desk_chair.vox
+https://media-crvox.sfo2.digitaloceanspaces.com/0x7b19b42564ad1c03625e8306cf20deea2f923a67/Door01_1acffe5817a8a54d6d073ce6b67c6c51.vox
+https://media-crvox.sfo2.digitaloceanspaces.com/0x263108604e0c9e1f6cdcf698e160cd563635a328/tikitorch1_b524b3caa75f95977ce8288a388d90ac.vox
+https://wiki.cryptovoxels.com/tall_tree.vox

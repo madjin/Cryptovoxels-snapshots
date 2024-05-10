@@ -1,0 +1,5 @@
+http://hoststrong.com/cryptovoxels/castleroad.vox
+/asset/dc1bf5c3-eb43-4c8c-aa58-f732f26e945c
+https://gateway.pinata.cloud/ipfs/QmVWuuCkXKQf4zWTJQuvx3i5LHtMG8Qb9aVu3rKDcJit5C/castle7771xcfinz.vox
+https://gateway.pinata.cloud/ipfs/QmeLMJFEHrTNEqTifKAqhwLfn2VDhXDVhBvBdXw4hxJX1r/japanese_room_fused.vox
+http://hoststrong.com/cryptovoxels/greydoor.vox

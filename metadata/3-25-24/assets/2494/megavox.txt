@@ -1,0 +1,5 @@
+http://www.myphspace.co/vx/snf/Male/Torso01.vox
+http://www.myphspace.co/vx/snf/texfl-0.vox
+http://www.myphspace.co/vx/snf/texfl-1.vox
+http://www.myphspace.co/vx/snf/woman.vox
+http://www.myphspace.co/vx/snf/Male/dummy.vox

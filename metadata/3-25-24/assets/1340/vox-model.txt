@@ -1,0 +1,8 @@
+https://gateway.pinata.cloud/ipfs/QmU4SzoCdYZk5tZAHXeNH19FZc2VafJ1QCCVpSamGJ4ZDk/planter.vox
+https://gateway.pinata.cloud/ipfs/QmPedFZaEfxfTewxp3uymUmUexJbWLc2eAivVrhQgw9477/stool.vox
+https://gateway.pinata.cloud/ipfs/QmWjjKfzzJRC92WTprKyxBkRnZHwXCgTEUs8acXi2srRWd/balcony%20%281%29.vox
+https://gateway.pinata.cloud/ipfs/QmZiWT4uQVY4L6L6cpyJif9kBvAd1E3TJqC6wrVGhqKXNK/white.vox
+https://gateway.pinata.cloud/ipfs/QmVKbnZKxBkPovvCPXjfYACRxqD5FscNuacn49gXE5b9Mc/loveseat.vox
+https://gateway.pinata.cloud/ipfs/QmSVU4Ur2B9vjxip9ujZyBwd1qCQdHYpFahr456Uw96RyJ/white%20floor.vox
+https://gateway.pinata.cloud/ipfs/QmQnwZJkvChps8dwgq5r3mZsyoAC6HErpzvYNETMj5nXCH/block.vox
+https://gateway.pinata.cloud/ipfs/QmQY5AGYFn1FejoP7DszNjdzSYNFf93HfPcjmUikuY6tvR/blackwall.vox

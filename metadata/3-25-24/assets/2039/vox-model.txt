@@ -1,0 +1,10 @@
+https://cdn.discordapp.com/attachments/1003651194343915671/1003651471851671582/YellowHip.vox
+https://github.com/kluchek/vox-models/raw/master/%23dog/%23dog.vox
+https://gateway.pinata.cloud/ipfs/QmdLbC86CgS6sQBhVFETZhpvhUfiV4DPdxq59YseiYCivo
+https://cdn.discordapp.com/attachments/1003651194343915671/1003676586207367189/right-quarter.vox
+https://gateway.pinata.cloud/ipfs/QmWEDuVNLuTaHYAT3K3mjhwdKemiedmwhQS3Pr3nzHRUZz
+https://cdn.discordapp.com/attachments/1003651194343915671/1003653821051977788/Yellowquarter.vox
+https://cdn.discordapp.com/attachments/1003651194343915671/1003673364965109924/corner.vox
+https://cdn.discordapp.com/attachments/1003651194343915671/1003677321112338463/left-quarter.vox
+https://cdn.discordapp.com/attachments/1003651194343915671/1007743102053785720/sisa.vox
+https://gateway.pinata.cloud/ipfs/Qmde5C5UWMC5XvQFrQC7fTsr8v35wPcdJRcmfk5RfNFBFN/road3.vox

@@ -1,0 +1,4 @@
+https://gateway.pinata.cloud/ipfs/QmXCG1oJq2gU4ySyMpeU6HZQkc6EigcJPa1Mxd64SuWK3K/loveseat.vox
+https://gateway.pinata.cloud/ipfs/Qme89PWdoULvRNRz7fVjHxmQk5a9ickVL6Du7tWPsLun9W/table1.vox
+https://gateway.pinata.cloud/ipfs/QmWx2x4rEv99B2D5HNMF1ifF1B9dnDBuPbYDWxE7FK4kwG/chair1.vox
+https://gateway.pinata.cloud/ipfs/QmWjjKfzzJRC92WTprKyxBkRnZHwXCgTEUs8acXi2srRWd/balcony%20%281%29.vox

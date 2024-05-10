@@ -1,0 +1,3 @@
+https://gateway.pinata.cloud/ipfs/QmayTGubUvApMtsDmXBmnZyQNosQuBuv3xwXQHb5Z58ZkJ/robothelmet.vox
+https://gateway.pinata.cloud/ipfs/QmUQCGKtdVSwJ9yYm1DkfHmhGmm1dsEiQRu1eS53oCgBT4/bench2.vox
+https://wiki.cryptovoxels.com/thin_black_picture_frame.vox

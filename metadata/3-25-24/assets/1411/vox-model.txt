@@ -1,0 +1,5 @@
+https://wiki.cryptovoxels.com/metal_fence.vox
+https://garethcryptovoxels.s3.us-east-2.amazonaws.com/Voxels/mDAOPortal.vox
+https://cdn.discordapp.com/attachments/843110341252087828/849633733513838602/Clothes_Stand_Base.vox
+https://cdn.discordapp.com/attachments/843110341252087828/849632819830456340/Clothes_Stand_Base_Pillar_1.vox
+https://wiki.cryptovoxels.com/metal_fence_corner.vox

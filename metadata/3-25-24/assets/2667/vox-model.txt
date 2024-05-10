@@ -1,0 +1,5 @@
+http://www.myphspace.co/vx/t/tile1.vox
+http://www.myphspace.co/vx/t/1.vox
+http://www.myphspace.co/vx/t/roofcap.vox
+http://www.myphspace.co/vx/t/columnbase1.vox
+http://www.myphspace.co/vx/t/column2.vox

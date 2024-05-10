@@ -1,0 +1,11 @@
+https://media.crvox.com/0x6a86608a058efa003a45d093329b535df139000f/model_12x18x32_255_colors_bb483c65bda7770dbf9046fd1f59180d.vox
+https://media.crvox.com/0x6a86608a058efa003a45d093329b535df139000f/model_17x16x32_255_colors_18c44597e8359b97e0739947539ae245.vox
+https://media.crvox.com/0x6a86608a058efa003a45d093329b535df139000f/model_12x32x22_255_colors_1608025eba5fe1b3818d829953d7b7e7.vox
+https://media.crvox.com/0x6a86608a058efa003a45d093329b535df139000f/poly-138_32x9x28_255_colors_4d26cbb960be82f29ec53177a99fbabc.vox
+https://media.crvox.com/0x1963203759f5c5eb5c5c916b3509c9f26dd0381a/1634406087495-8be43928-6cae-4ae0-86fc-6cc08d0c2ae1.vox
+https://gateway.pinata.cloud/ipfs/Qme2DiCREtYdgn4zFg6yHSxY1qRwjKDBXKwX223aVFciBD
+https://media.crvox.com/0x6a86608a058efa003a45d093329b535df139000f/model_12x32x16_255_colors_180a738ed054b29066d4f1635871f15a.vox
+https://wiki.cryptovoxels.com/desk_chair.vox
+https://media.crvox.com/0xd955f912306b08d61b14335f952cb37fb1f64b4b/1627849449813-a4d4c9f7-ab80-4739-9f57-a1c62a7fc0da.vox
+https://media.crvox.com/0x6a86608a058efa003a45d093329b535df139000f/BlankFile%2033_4cd50867689950bb1d443bf82ea0e7e5.vox
+https://wiki.cryptovoxels.com/vendingmachine.vox

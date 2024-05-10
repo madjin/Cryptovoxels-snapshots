@@ -1,0 +1,12 @@
+https://gateway.pinata.cloud/ipfs/QmejDD775c1Txq4ZooQ3ZU8HGA2aoZDPgWcUGuN8RJ3N3k/pinkcat/pink1-B.vox
+https://wiki.cryptovoxels.com/square_hedge.vox
+https://gateway.pinata.cloud/ipfs/QmcYdnYnDg3ZrUXM6xtBvTDhYe13G34hGvzWLmQ5EbS2k6/pinkcoffee.vox
+https://wiki.cryptovoxels.com/tall_grass.vox
+https://gateway.pinata.cloud/ipfs/QmdbDDaYPz95empNGeP95iQ3BPpvtiCnPwd5L7DQ2kSZtQ/tulips.vox
+https://gateway.pinata.cloud/ipfs/QmY8uN4omRwhpCRqKGFKHpuWb7LFGn7taje4hPTEYyG7BY/whitewall.vox
+https://wiki.cryptovoxels.com/wall_vines.vox
+https://gateway.pinata.cloud/ipfs/QmejDD775c1Txq4ZooQ3ZU8HGA2aoZDPgWcUGuN8RJ3N3k/pinkcat/pink1-T.vox
+https://gateway.pinata.cloud/ipfs/QmQusMmovjDpyaCDNRsSEt6vgdYxvXvA2gKdZ5Yq3zVYtK/book_stack.vox
+https://wiki.cryptovoxels.com/wooden_bench.vox
+https://gateway.pinata.cloud/ipfs/QmP2GhSBgovbaHazERvrirAG7q9wvut9QbcVWd93LmDaoE/test-0-mooncat9-1.vox
+https://gateway.pinata.cloud/ipfs/Qmcc1iUekTw2V4kUQMPRQtmu91WVVic2T7TAUW25NKqjD3/Gold-Star-3.vox

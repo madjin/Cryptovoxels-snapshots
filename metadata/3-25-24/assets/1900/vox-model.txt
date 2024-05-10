@@ -1,0 +1,5 @@
+https://wiki.cryptovoxels.com/thin_black_picture_frame.vox
+https://gateway.pinata.cloud/ipfs/QmdLN8V9huiC12hwFKB3JP4sv81NvMN3x21j9WQXUKhfrW/fence1.vox
+https://gateway.pinata.cloud/ipfs/QmU6f836UkFWgYMAwufmHceJQRtSSg2rCS7AFbcUASkEdG/chair1.vox
+https://gateway.pinata.cloud/ipfs/QmURRoCEBPD8iZy4QaJSmd2MvpLEELMAnXDWSevbtYBY8B/table1.vox
+https://gateway.pinata.cloud/ipfs/QmNYuWsSenWo1FhPrr9v6z9U2HStNDgEZhiz9FutxPjTEf/loveseat.vox

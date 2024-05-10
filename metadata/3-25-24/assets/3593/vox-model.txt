@@ -1,0 +1,3 @@
+https://gateway.pinata.cloud/ipfs/QmTNB61ArAeqbAtgxrQg9tDGfXx2xMNH1xYazHAG8ac35S/pillar2.vox
+https://gateway.pinata.cloud/ipfs/QmdfpNqiARtQHZXGnKRXhGe9zuJvwMiodTqdYUszhb7UmJ/vox%20%281%29
+https://gateway.pinata.cloud/ipfs/QmfCqQgtjbCMK2bn7TvnGq24NjHkd9hokW4zTMmVxrPd54/brick.vox

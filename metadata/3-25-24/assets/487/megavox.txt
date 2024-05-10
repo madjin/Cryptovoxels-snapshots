@@ -1,0 +1,2 @@
+https://s3.spyduck.net/assets/room/vox/statue_126x.vox
+https://s3.spyduck.net/assets/room/vox/faction_statue_126x.vox

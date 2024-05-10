@@ -1,0 +1,6 @@
+https://gateway.pinata.cloud/ipfs/QmRsGWcgkowBXoLaiFsdc6Q3EtMogSiVP67qFFLDY1Qis8/squirt.vox
+https://wiki.cryptovoxels.com/red_door.vox
+https://gateway.pinata.cloud/ipfs/QmU2eTUsXt74TnhfG55QUSGnc7V1fR57Z3Ve7LDZEfFUvg/squirt.vox
+https://gateway.pinata.cloud/ipfs/QmTfaJBPtWmpjZsV5Unqv8onac687hWp2CxphmRQCY1Dq5/yellow.vox
+https://wiki.cryptovoxels.com/golden_slope_picture_frame.vox
+https://wiki.cryptovoxels.com/simple_wooden_picture_frame.vox

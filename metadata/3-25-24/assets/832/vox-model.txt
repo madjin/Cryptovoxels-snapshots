@@ -1,0 +1,12 @@
+https://gateway.pinata.cloud/ipfs/QmTMg2RE9wSRjenDJWYo4wGeToEDc6WnBLQZRZEG878PmG/GoldDiggerBody.vox
+https://gateway.pinata.cloud/ipfs/QmViwPWG6PZsj2aHrTTthUeqiCRjuPrMNvL3wqPWPvDQwe/GoldDiggerStandingHead.vox
+https://gateway.pinata.cloud/ipfs/QmZTiS6TpU6U99DGD9BsHCpG2RvzscFf3Lz27CjpkNst7E/GoldDiggerStandingArm.vox
+https://gateway.pinata.cloud/ipfs/QmYeZMAEnmyYiGDhGw1YfUwqXvpV1tKAh3BzRRaHCzR24s/GoldOre3.vox
+https://gateway.pinata.cloud/ipfs/QmYqqfHdqmmb6hzRn9stZhM8ijdL47U4uiMjzYo7SveWPF/Bitcoin.vox
+https://gateway.pinata.cloud/ipfs/QmWfWL33GwSWYdHC9FjiHN6YgRYLjdZbYv5UZ8JR7ekk9B/GoldDiggerBody2.vox
+https://gateway.pinata.cloud/ipfs/QmVgFoLZ5V8kXPpdPazkwVRTkV1dpXQcpfBmMcskhThR1F/GoldDiggerHead2.vox
+https://gateway.pinata.cloud/ipfs/QmToEgbY2bxKAHtvEPoaQNaF8XXtvB2Py2rEYc79xxCtjr/GoldDiggerStandingLower.vox
+https://gateway.pinata.cloud/ipfs/QmYg2xyoXXrZt51oBbTKMVTjMBLJBoLHosMRfBXEYK5Hv8/GoldDiggerArms2.vox
+https://gateway.pinata.cloud/ipfs/QmT5HX5UW7qrLS5TTZuobVipEi3ovS6uQFNy9o2UNH4rG7/GoldDiggerStandingUpper.vox
+https://www.dropbox.com/s/ec2pn3ikvcjo5p4/gold-wall-2.vox?dl=0
+https://gateway.pinata.cloud/ipfs/QmQ1HQVi1WbuRoDx2ZD44qnUgTBezyCBG1jd1XbYixgBPX/GoldDiggerPan.vox

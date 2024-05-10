@@ -1,0 +1,11 @@
+https://s3.rokket.space/t_YArJsW.vox
+https://gateway.pinata.cloud/ipfs/QmenD4vXjuCD9r86EvfcNXY11TJW6dJ3E9adcyFhNN6ePi/maquina1.vox
+https://gateway.pinata.cloud/ipfs/QmPf8ZxqFXC4pHWxvagLwgDZykXhAxgav2Cu5g93d9WrR5/base2.vox
+https://gateway.pinata.cloud/ipfs/QmU3WUrcaBA968Gz87Wr6nUgc63L2GWAdEn6TBNBg8RaqJ/base1.vox
+https://s3.rokket.space/t_E4RUE7.vox
+https://gateway.pinata.cloud/ipfs/QmY5ttKhYHXTFoRrrKsHpcJNSy9n3jAB7NdYEAV6QewjGb/cabeza.vox
+https://gateway.pinata.cloud/ipfs/QmPU3LAEDHsfniC61fRpHkwPJAYvhF6vjvAwWquuANCqyf
+https://gateway.pinata.cloud/ipfs/QmPbEvtcheEzLTGjm8p9ZRuJTViDXyuz4psKPb5feJ9das/puerta.vox
+https://gateway.pinata.cloud/ipfs/QmQ5WgvChn3gD9nL65pUHqZd5nV6VWpgKWGHUPMoLbw86w/base3.vox
+https://gateway.pinata.cloud/ipfs/QmfU7JwvzRMdDocA6bVFH6dprA1PMyrAStexnFx9tkc3fM/grid.vox
+https://gateway.pinata.cloud/ipfs/QmWdAXbN2JwKzLKQNRwBSdE4Jye751rDQTU6VcZT5EgWUz/dj1.vox

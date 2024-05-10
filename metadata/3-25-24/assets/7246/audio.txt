@@ -1,0 +1,4 @@
+https://ice1.viastreaming.net:8443/live
+https://streaming.wkar.msu.edu/wkar-jazz
+https://ssl.shoutcaststreaming.us:8090/stream
+https://media.crvox.com/0x8c06a08122024ed38c103160c0efb822fc59288c/1650874309112-0f836413-9417-41b2-bc92-f23ae64941eb.mp3

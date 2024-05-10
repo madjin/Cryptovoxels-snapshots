@@ -1,0 +1,2 @@
+https://voxels123.s3-us-west-2.amazonaws.com/buildings/boat.vox
+https://gateway.pinata.cloud/ipfs/Qma9JQquZHsGd5vkGEsy3GFggWCCPwrfWHmiQMvEuKT83Q/57BLOCK.vox

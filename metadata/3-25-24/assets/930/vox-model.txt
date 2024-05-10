@@ -1,0 +1,2 @@
+https://media.crvox.com/0x33debb5ee65549ffa71116957da6db17a9d8fe57/1_1b48f1558532a915064058a8866ea7bb.vox
+https://github.com/gm3/voxel/blob/master/SweepStairs.vox

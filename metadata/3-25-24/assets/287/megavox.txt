@@ -1,0 +1,3 @@
+https://gateway.pinata.cloud/ipfs/QmaxbAHmgTDUUxvFD1inr8FFwnDJQteR7MevQYZcinjVSw
+https://gateway.pinata.cloud/ipfs/QmeJugBSNZdycJteDHYT8VavUhjA3zinDGvCtkHd1BN5q7/gato.vox
+https://gateway.pinata.cloud/ipfs/QmQVGzMkYEKcQMkUoY5PxqTMeHvCjkR9Tz47MeYCYJLvvA/turntable.vox
