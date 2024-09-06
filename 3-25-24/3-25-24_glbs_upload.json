@@ -1,0 +1,1002 @@
+{
+    "created": [
+        {
+            "type": "folder",
+            "entityId": "3c8125ef-0bb1-42fc-8261-67669558b53a",
+            "metadataTxId": "boyWJZ3_wAHzn_JqTEOgtKO0qJfOrEsLG_pGCNLt3wc",
+            "bundledIn": "YfyhxlxtKkEepNmfnOY79Li0b_0RpI6vHA7-uj_IqbE",
+            "entityName": "glbs",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs"
+        },
+        {
+            "type": "file",
+            "entityName": "Milky_Way.glb",
+            "entityId": "83317536-b9e2-499a-bf76-55a05e52ec30",
+            "dataTxId": "GJFSxw0zeQOEfsdapMx8tuLY0f5jnzusZfiYA_b92BY",
+            "metadataTxId": "ti1ZWjABC-pIdJgsEuU11E4v-48ZOEHnZPZ-YWdGk80",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Milky_Way.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Area_51.glb",
+            "entityId": "26fb42d6-c64c-4bd5-888c-bc54df4d9a1f",
+            "dataTxId": "lu_26club2po9DGHz9Fartdevip2yP6xSluhf_b4aNc",
+            "metadataTxId": "nIoWzMFSuuYmtmC4VcZWuMh4OO7E7qBA-MitZXhDj5g",
+            "bundledIn": "YfyhxlxtKkEepNmfnOY79Li0b_0RpI6vHA7-uj_IqbE",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Area_51.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Autumn.glb",
+            "entityId": "12ebb7dd-8a22-4f22-900e-a7c1aace37c3",
+            "dataTxId": "uhYcrAzPGKiQ4pqQiRqIsHpHreZpWUH-aY9dzGZ6WWw",
+            "metadataTxId": "oBsyJPDZOOS_4N_9hH01dSvgYt63etiy0qFgGPh-Nn8",
+            "bundledIn": "YfyhxlxtKkEepNmfnOY79Li0b_0RpI6vHA7-uj_IqbE",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Autumn.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Axies.glb",
+            "entityId": "3fb08d80-b799-4e51-94b8-e8da5c46de9f",
+            "dataTxId": "STj5Decbo91L-aLdG4A9LK7M5sw6D68POlJ7ZrpA7Sw",
+            "metadataTxId": "e34KX1Xab6Lqk7TzF6-V-iCna7ohEMHkjbibN_R8NdE",
+            "bundledIn": "YfyhxlxtKkEepNmfnOY79Li0b_0RpI6vHA7-uj_IqbE",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Axies.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Axonometric.glb",
+            "entityId": "9e3de995-106c-4662-86b5-f20850f16068",
+            "dataTxId": "Lo_ZhknDK2YGeJM-qf1kCzH3AiHrylObRjsGnOd9l_k",
+            "metadataTxId": "DvXZKwJMFqUzN14dCVQsLrBeac0czUB6zvb3WBlQbIs",
+            "bundledIn": "YfyhxlxtKkEepNmfnOY79Li0b_0RpI6vHA7-uj_IqbE",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Axonometric.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Babylon.glb",
+            "entityId": "7cfa4682-5b7d-4c06-9984-e056e43b00cd",
+            "dataTxId": "zfUiaA39do0Wh1zhoYbwNS7BTwBmMHWTIpR52s21nuw",
+            "metadataTxId": "deajHbw-cRQbg2BinHUfhzeQzDw_dWFesjxpm1Hv7Lw",
+            "bundledIn": "YfyhxlxtKkEepNmfnOY79Li0b_0RpI6vHA7-uj_IqbE",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Babylon.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Cannaregio.glb",
+            "entityId": "4703597b-7af0-41a8-9231-8ec5dce9b489",
+            "dataTxId": "owo9eMrmcQG6-ARerGWAcftByFr9tBMVP9OOZrwkXR4",
+            "metadataTxId": "5zCmJyuotoP5vbtN9aU8qIxLzVglYs_fitIRj9sU_zg",
+            "bundledIn": "YfyhxlxtKkEepNmfnOY79Li0b_0RpI6vHA7-uj_IqbE",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Cannaregio.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Castello.glb",
+            "entityId": "cbec05e4-b140-404c-b0fc-0f5353a11379",
+            "dataTxId": "5zu7KDUOyyBr3QP3Vn3h0NEwl6GnSHTsoArGxK2-X1E",
+            "metadataTxId": "B2dwPiW6DzghIUIUbXrboM2ttqha5WAJggmXJgFYXoU",
+            "bundledIn": "YfyhxlxtKkEepNmfnOY79Li0b_0RpI6vHA7-uj_IqbE",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Castello.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Dorsoduro.glb",
+            "entityId": "1c0b96cd-6d77-4435-9269-044c8a574ffe",
+            "dataTxId": "mSt-IgBZ56eT5mZnKY-cZLPrHnNnj6-dBy5mHk-PWZ4",
+            "metadataTxId": "KtpEM0_aiMbEvk2HHiSA36A83SnaYs3KOorr-aGpo2E",
+            "bundledIn": "YfyhxlxtKkEepNmfnOY79Li0b_0RpI6vHA7-uj_IqbE",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Dorsoduro.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Known.glb",
+            "entityId": "bae0a494-d780-4742-a693-31f467fb54a3",
+            "dataTxId": "SH6TzIKEJdsNwM0sw_fPLOeaxXsgCrwAAA53e79eZwY",
+            "metadataTxId": "B7kpNX_4ApaD2nfLrTbqTfPCLx2cgVn_dMPC3yJXNDY",
+            "bundledIn": "YfyhxlxtKkEepNmfnOY79Li0b_0RpI6vHA7-uj_IqbE",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Known.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Berlin.glb",
+            "entityId": "fc25155a-4a11-4017-8ab4-c918561cc8f2",
+            "dataTxId": "yuhc7KIRQPg8CJ4ky-BQXp1SNY3yc60YdyGhTxAAZYQ",
+            "metadataTxId": "PDH3hstO1sXOX8vcXWrX4XEjsRQJjW2NdBa_wBVlIOc",
+            "bundledIn": "FPBYNlhpdAOn59CEUSX4v9ZGiNr4I0v9hgrDRz_gBrw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Berlin.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Ceres.glb",
+            "entityId": "caf80a80-7edd-4ef2-b30b-4e5d32c64001",
+            "dataTxId": "qy_6RI1LOKu0aRlJMM2uefSdGtEu4sV5RfoAXZsv3sI",
+            "metadataTxId": "yMaz9tZI9MvLI98AW02sJpLu5OpsedaGpy5O3qleHMU",
+            "bundledIn": "FPBYNlhpdAOn59CEUSX4v9ZGiNr4I0v9hgrDRz_gBrw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Ceres.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Comet.glb",
+            "entityId": "24932099-8e75-4cd7-a781-3f2c7f61ba74",
+            "dataTxId": "mtaZDzaVRi1Xyv8W9R-Kn9M7IekZLDQz8ntayC6MOc0",
+            "metadataTxId": "c-AuuYolGsujbyaJQ0cWUL4QG6jgAMyyuo5UTREBnhE",
+            "bundledIn": "FPBYNlhpdAOn59CEUSX4v9ZGiNr4I0v9hgrDRz_gBrw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Comet.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Daffodil_Dunes.glb",
+            "entityId": "86af69b8-fa23-4d3d-a783-2b3f28dde5da",
+            "dataTxId": "PMXfGSi8TXtmPAvj-aUo1j8K35U7hr4-JB2EnuBRgaI",
+            "metadataTxId": "LD7G3tS-GB7rRfFoZgritS6ffsoFMkPa9RhPt9KSxIE",
+            "bundledIn": "FPBYNlhpdAOn59CEUSX4v9ZGiNr4I0v9hgrDRz_gBrw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Daffodil_Dunes.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Electron.glb",
+            "entityId": "b7002d05-384a-482d-b49e-fe1f61914bb1",
+            "dataTxId": "TtXAwXsZjlw2L_YdoaHUFfvuvM4GOxFeN4sCD11904I",
+            "metadataTxId": "PC6aAESj5kUaN59frgIRLMR9CkNMsOvb_wT6eldZi8w",
+            "bundledIn": "FPBYNlhpdAOn59CEUSX4v9ZGiNr4I0v9hgrDRz_gBrw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Electron.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Forget-Me-Not_Forests.glb",
+            "entityId": "ad65d947-86bf-46ae-bfe3-f68d48139922",
+            "dataTxId": "RqFzxn9_7XHb9to94TlkULciSeJ_plDzzk1IKM4TO1o",
+            "metadataTxId": "E-77vhjc-AtV9Jp5X_DRE35acAbKxtMPEw6ag5yABMQ",
+            "bundledIn": "FPBYNlhpdAOn59CEUSX4v9ZGiNr4I0v9hgrDRz_gBrw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Forget-Me-Not_Forests.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Little_Ceres.glb",
+            "entityId": "a40e60c1-f0d9-4433-808f-fbe19bd0e67d",
+            "dataTxId": "YEy9PrFlYhPBlRDYWLQbYAdmWVhseIqnXijDOrMVvTs",
+            "metadataTxId": "jgfW2JCJ4J6FRiVIOzfwJMYY1LnE07IjHt7QPSToLDQ",
+            "bundledIn": "FPBYNlhpdAOn59CEUSX4v9ZGiNr4I0v9hgrDRz_gBrw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Little_Ceres.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Bronze.glb",
+            "entityId": "f0c5376b-fbb2-4425-903f-b8c1ac6f8d52",
+            "dataTxId": "FEF0LqxRZTMNHG07OOVSO5y2Et0FFpp03xTi6Ms1M-Y",
+            "metadataTxId": "IEhsVpRG83es905WHvI0X-0BDlrYrlyT5g7OvO7TdF8",
+            "bundledIn": "g-e9sMrk1YmHMrP7MYEKrg3I0l2a26KyJ2za8z7CW_Q",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Bronze.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Deep_South.glb",
+            "entityId": "a5a92155-e77a-4e4b-85f9-0dfa5639c165",
+            "dataTxId": "I0jyposemzJgQRlxXbj1vl1L9P3njhQtdNzKvKZuMB0",
+            "metadataTxId": "4Rr3mRU8c8uRtj_LOohp4KHkHafxM9lteNikVtbzTMw",
+            "bundledIn": "g-e9sMrk1YmHMrP7MYEKrg3I0l2a26KyJ2za8z7CW_Q",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Deep_South.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Euro.glb",
+            "entityId": "e92a97b8-7e03-4632-b3b6-da23518b6560",
+            "dataTxId": "yrOTJkaJOWbH91Uw9wAfMPiHxWkog76q7pKt-AXtOBk",
+            "metadataTxId": "dhvExqbfb5nQpTUBeCvr-6sou1i0CK1doKgORbljUFc",
+            "bundledIn": "g-e9sMrk1YmHMrP7MYEKrg3I0l2a26KyJ2za8z7CW_Q",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Euro.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Santa_Croce.glb",
+            "entityId": "4e05f3fd-08ae-4e76-ad14-e3d98c7d99cb",
+            "dataTxId": "v4VS7aPfOd4KPN4Jj1uIfpYsgYplj4D6oP4qQPBSFVw",
+            "metadataTxId": "XxX3avwyrVA_zIS4oYDNWYTf6f0JEnhQgUg__gkqg8o",
+            "bundledIn": "g-e9sMrk1YmHMrP7MYEKrg3I0l2a26KyJ2za8z7CW_Q",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Santa_Croce.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Doom.glb",
+            "entityId": "22d12381-b2a0-40e3-9187-196a36191474",
+            "dataTxId": "fYG0-dMQDNRZNIc_pCurva5oB7-168fUoXj0wubQyYQ",
+            "metadataTxId": "GVZ4Q4jbOK5CcbtKJdmRxLGjKmRDcJEXcxPBCZfXGyE",
+            "bundledIn": "FPQ4NhvR1RkIrXO8Nt0PnKDpLdfwcdN1pbeEk6HYRu4",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Doom.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "East_Tokyo.glb",
+            "entityId": "be0a45f8-9e77-41c9-86bf-9dc9b759cb46",
+            "dataTxId": "HibXfp2RO84Bw4gV2X9YI0W4Xop3-Jy8eXAGv_yhS2s",
+            "metadataTxId": "4lDmXF4FHbzjQ7CSFj2soJex15UHAcej3wsw2mtMrkM",
+            "bundledIn": "FPQ4NhvR1RkIrXO8Nt0PnKDpLdfwcdN1pbeEk6HYRu4",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/East_Tokyo.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Elevation.glb",
+            "entityId": "a625e916-8fe1-4992-9e1b-605d6075804a",
+            "dataTxId": "z2FfwTGqUqkzu6R65aWW8Bpq5jv1b5webUX3CkzjT3c",
+            "metadataTxId": "SGfr4OULKdkB8JXqEA9GimTCtYdkK7UQSBhooCr-AV4",
+            "bundledIn": "FPQ4NhvR1RkIrXO8Nt0PnKDpLdfwcdN1pbeEk6HYRu4",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Elevation.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Fantasy_Fields.glb",
+            "entityId": "2d9f5e3a-3b85-497c-a52d-68561e9bad4c",
+            "dataTxId": "0inAwHCQ4_Tnk7O4byYSKv70mbWJGwHSdFBf0ZGGpqI",
+            "metadataTxId": "8ZsDBzWQU6J1CaXP5dMtrzTtLbY8iSRMCJzj2YsbIao",
+            "bundledIn": "FPQ4NhvR1RkIrXO8Nt0PnKDpLdfwcdN1pbeEk6HYRu4",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Fantasy_Fields.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Gold.glb",
+            "entityId": "68e81ec1-69f3-49bc-884d-e31863579307",
+            "dataTxId": "xNNaSdEfM8Iw_bRpyDNgVGXUHi5mH_oHSFewsEEX4Mg",
+            "metadataTxId": "o-LrfaBdyk9HuDMyUdVZtMAAPHq8LE_GqZceWDGGhog",
+            "bundledIn": "FPQ4NhvR1RkIrXO8Nt0PnKDpLdfwcdN1pbeEk6HYRu4",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Gold.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Eye_of_Sauron.glb",
+            "entityId": "bed2b47b-7289-478d-9aac-83953e8c9af1",
+            "dataTxId": "bRArNM16eQPyPkaiTjlvBML2MANIZwJg6zb_89uxm-c",
+            "metadataTxId": "JbVB2JQ6akbo2oS8HVQKU-R0Tud9lBK8XtAE_zvInpE",
+            "bundledIn": "iYchieYgb4x17NIeH7sb_4nf59LA2KTujDPNSCEpl2c",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Eye_of_Sauron.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Far_Far_Away.glb",
+            "entityId": "fa40d1f9-50f3-4c9f-a9e1-fc6be1a11663",
+            "dataTxId": "c7sN63RXwGB0Lhrn--yX2Hl-oTmdNvsEVv0ArW-8FgY",
+            "metadataTxId": "_wLBXG4Y3FyQyV2ZI4f21zCbmdyH2QKcB1TzykQfEi0",
+            "bundledIn": "iYchieYgb4x17NIeH7sb_4nf59LA2KTujDPNSCEpl2c",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Far_Far_Away.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Hiro.glb",
+            "entityId": "973634ba-6ac2-42e7-8012-41408fd66769",
+            "dataTxId": "Anybh_uS8DuMnttkbCkk0JtP2WNrSki0YCNGd3qo2v4",
+            "metadataTxId": "_Hz6tyI4zGIBSR-zFmyRELpViDOgCF-Yq5YifWdx5Bk",
+            "bundledIn": "iYchieYgb4x17NIeH7sb_4nf59LA2KTujDPNSCEpl2c",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Hiro.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Moss.glb",
+            "entityId": "449de38c-f1d6-4d1f-b463-839e561c4754",
+            "dataTxId": "PGBwpmlA0kiWpNP7hxAsrdSoTiykx5KreRa2SHimCbY",
+            "metadataTxId": "CfOft6lQKvbom4Z2nodM_06yqKBGfe6wTfM-AW4Ecgs",
+            "bundledIn": "iYchieYgb4x17NIeH7sb_4nf59LA2KTujDPNSCEpl2c",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Moss.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Frankfurt.glb",
+            "entityId": "6811942d-96cd-43c6-8932-98c62cfa1c92",
+            "dataTxId": "w3lFAwikq7g8DwtNFvq7jQWkT5RC5PEp8uaGdWnbaqY",
+            "metadataTxId": "vUSPqc_yhpOIV6_Wvkx_tnJ6E7CVCTRA9OBRpIYw4E8",
+            "bundledIn": "QeXBdFN4JDmyCI0R2x6CXuPpYPA7OabuQcn9UNje_04",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Frankfurt.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Gangnam.glb",
+            "entityId": "17de59ed-2d2f-4dbb-8558-24e74bb53d4a",
+            "dataTxId": "yrd5Uuh3u010ONV-UM8DD69tnErO2Saysm9B3aBENQw",
+            "metadataTxId": "SiIxMkvFPXQVMS4Gos2QN0M3O7MN_gyuScj78w5KwM4",
+            "bundledIn": "QeXBdFN4JDmyCI0R2x6CXuPpYPA7OabuQcn9UNje_04",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Gangnam.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Honolulu.glb",
+            "entityId": "23e30d0f-54fb-43a0-86d6-e48ddd7f58b1",
+            "dataTxId": "pCNzd6JjvVei5bNRjUebAGIg2ukXSj74aw2g4LEFJzg",
+            "metadataTxId": "DLA-3HWIprX5MwHx0IE0N0639W340QYUoTe8v90ZFt0",
+            "bundledIn": "QeXBdFN4JDmyCI0R2x6CXuPpYPA7OabuQcn9UNje_04",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Honolulu.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Kauai.glb",
+            "entityId": "ab6ff4ec-d05e-4bc0-a03e-d32ac76727d9",
+            "dataTxId": "dMCHAdmiiiIkno8nODuvD6PW11bnF-geWVPTM5yJTbM",
+            "metadataTxId": "z0RN8oQCgD8mrNRdQ4XmdaB3z3lR5VBqJv79_84spc8",
+            "bundledIn": "QeXBdFN4JDmyCI0R2x6CXuPpYPA7OabuQcn9UNje_04",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Kauai.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "San_Marco.glb",
+            "entityId": "95e1b512-fb1c-430a-bb32-4d880929b3b3",
+            "dataTxId": "2mqqJL350eyd23Y6n4La2F33is7CIPDRrHQedWXlVY4",
+            "metadataTxId": "jgfZYv8SnaO1OLUCAQ0IKWw2PE_EEFR8VkM19ypcP3k",
+            "bundledIn": "QeXBdFN4JDmyCI0R2x6CXuPpYPA7OabuQcn9UNje_04",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/San_Marco.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Helios.glb",
+            "entityId": "37d76bf5-765d-41ce-90b8-71a43e25e6d7",
+            "dataTxId": "rltyVVkUPsbAxQry7I-0J1ECLWrcf8YPLUVV_m1dZfA",
+            "metadataTxId": "VsZMII1mUSHhP1gpWx00Mc3RjOPv5goCXJrAxxJYYxI",
+            "bundledIn": "XuhV_tNJ-SLnL5uT3zDx_9-Ll_4JZwXfuH6AXatyeo8",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Helios.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Igloo.glb",
+            "entityId": "4803de14-db81-4b2c-a278-e4fe3ba2e511",
+            "dataTxId": "VJn1dXRK8v8wn8I712zOyh8SseUMdSv9tkuIh6xyyOM",
+            "metadataTxId": "Spe0J5WSKtCVkhx_JyYy59KVV_8teqyjA_V6FxzX91A",
+            "bundledIn": "XuhV_tNJ-SLnL5uT3zDx_9-Ll_4JZwXfuH6AXatyeo8",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Igloo.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Junkyard.glb",
+            "entityId": "f1afdf47-6876-4455-99e0-1b01f57030c2",
+            "dataTxId": "8p5h25Ak1Fp2wiJGqajPgxGBIJiYinTa-2tpRDZc_wY",
+            "metadataTxId": "_VUbdTLJT82mxGBWP7E9T6U3N49g6Aa3PkJwXktNh3E",
+            "bundledIn": "XuhV_tNJ-SLnL5uT3zDx_9-Ll_4JZwXfuH6AXatyeo8",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Junkyard.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Kiwi.glb",
+            "entityId": "4e77f84d-061a-49bc-a79f-2983ebdfcef6",
+            "dataTxId": "AcmWKQZPeiqlXDJ04SBA7MuLr_dpnDuUX4pauPF4-SA",
+            "metadataTxId": "5a4RGOXwTkraE8rUPYfMCWpLQz63z1tA_VHsOgIqwHU",
+            "bundledIn": "XuhV_tNJ-SLnL5uT3zDx_9-Ll_4JZwXfuH6AXatyeo8",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Kiwi.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Kauri.glb",
+            "entityId": "647f5d6e-b7a4-446a-8814-3c165ee92aa9",
+            "dataTxId": "dhqwFicJPfrcnvhV68OAKU06SPv_YbhX48F0CZLHqMw",
+            "metadataTxId": "2qZ1uL0yb5OIH8VGfGS8M7dl14U-TPBZcYSV3NrS2Zc",
+            "bundledIn": "D210CrCBCvj5b5oIdtT_-6Dj1qXTVnkD9T4DYrNtt6M",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Kauri.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Kitties.glb",
+            "entityId": "a789afc9-6514-4538-99e6-de95cdbc2103",
+            "dataTxId": "Uok6sWyz-HcJEM-G-DhZCrjuALT3-wOLd8QK0qDQibc",
+            "metadataTxId": "Lf6_ETPUiGGRcTbLjIqJ0CL56IYi4jinvFZiX4HhO7w",
+            "bundledIn": "D210CrCBCvj5b5oIdtT_-6Dj1qXTVnkD9T4DYrNtt6M",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Kitties.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Le_Marais.glb",
+            "entityId": "a1c3ab8d-a76b-4e4c-a374-e0982ec8055c",
+            "dataTxId": "6Jf8jepFY3vhcF5dfur601OawbW2S5LIAsbZV19_IHY",
+            "metadataTxId": "scL0xWPvZ2F20T1UBgltwso9x0gnWKOOB-3frHLi7cA",
+            "bundledIn": "D210CrCBCvj5b5oIdtT_-6Dj1qXTVnkD9T4DYrNtt6M",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Le_Marais.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Little_Tokyo.glb",
+            "entityId": "32a1e8fc-3571-407b-8000-b2fa48fab1a1",
+            "dataTxId": "QxKlE51hkbsPelSgdQoiReSfdyS7QEsuAmhdLKfKYN8",
+            "metadataTxId": "OSR1n_WhJ5K-afmMtszTMQiBYNG4WGOUa6oRdvRdzNg",
+            "bundledIn": "D210CrCBCvj5b5oIdtT_-6Dj1qXTVnkD9T4DYrNtt6M",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Little_Tokyo.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Mars.glb",
+            "entityId": "32f5df71-2a66-48cd-9745-cb73924469ad",
+            "dataTxId": "IK1nJRv4c90zq2hSwliVwM6VyNBYQ4ENOiryz6cmuWE",
+            "metadataTxId": "9eu35RheYeCCw2lm58wpky_99mtp8BZuxmpL14zoHKk",
+            "bundledIn": "D210CrCBCvj5b5oIdtT_-6Dj1qXTVnkD9T4DYrNtt6M",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Mars.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "San_Polo.glb",
+            "entityId": "f669ff37-8299-44c9-9679-37a329a11107",
+            "dataTxId": "7jqUzwVslZ1PED8i0xQvhnZjT1-nK4hQZc1wLJze_x4",
+            "metadataTxId": "mBt0LXHzKWBpP3cSDV0AXj5Xwt7hu0JaNzUrg-_UQxQ",
+            "bundledIn": "D210CrCBCvj5b5oIdtT_-6Dj1qXTVnkD9T4DYrNtt6M",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/San_Polo.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Unknown.glb",
+            "entityId": "011f28d4-9a46-4b89-80dd-55b080e58ac8",
+            "dataTxId": "q6h6GOoPh8aPdNiT066RteI1BPOseAkA9jjGf4z2SKY",
+            "metadataTxId": "XJT3bZtN4eeuFit_VnT2xpI_XhPf4_gf7KAWRbqulKw",
+            "bundledIn": "D210CrCBCvj5b5oIdtT_-6Dj1qXTVnkD9T4DYrNtt6M",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Unknown.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Makers.glb",
+            "entityId": "0c5d3959-7401-4348-a70d-b824419732de",
+            "dataTxId": "assaSX8N5IuQ5N4HSPq_L-xkMUuJklKe_UY3E4IRG8Q",
+            "metadataTxId": "5HivOtuV-UE_l009pV13hzceMaBk7c2MHa-lt_W8FxA",
+            "bundledIn": "Jt7Kx956_MYFdtvtvxs5sSWxVsZFXMuYtZfXv6OjOko",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Makers.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Memes.glb",
+            "entityId": "82b050cd-1277-4779-862f-01fe5dd421ad",
+            "dataTxId": "5vYHs6vkJS8HDG5uQQtGWvnlwGUpFyEBuLfNeytPf0c",
+            "metadataTxId": "KcXEzhP1XNbGvISk5RcZEIY08_IIopHnj29MGKLJ5KU",
+            "bundledIn": "Jt7Kx956_MYFdtvtvxs5sSWxVsZFXMuYtZfXv6OjOko",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Memes.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Midtown.glb",
+            "entityId": "3ac1114f-f6ed-4441-8a25-d835f513a5c8",
+            "dataTxId": "-GKO-9aXhUrgFKDSTayosZ4eCgWsqT_u-sWxXmy2n3Q",
+            "metadataTxId": "TDMA0Bjs8YNAsAcN0wgqK0XqGzVyvwxUek561MzdBNU",
+            "bundledIn": "Jt7Kx956_MYFdtvtvxs5sSWxVsZFXMuYtZfXv6OjOko",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Midtown.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Modville.glb",
+            "entityId": "5b957d5c-08ca-4ead-b06e-c8b7e229608d",
+            "dataTxId": "D6VvdLSSihmnKXO11WNnr4mkViKsu6l7krKDgBQ6EGM",
+            "metadataTxId": "hZ-_BbWYwUF8l0JX0MB-egsCrV6U8EERKSvsyZ9Nnxk",
+            "bundledIn": "Jt7Kx956_MYFdtvtvxs5sSWxVsZFXMuYtZfXv6OjOko",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Modville.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Munchen.glb",
+            "entityId": "4e4e2483-9aeb-4196-a435-1d153ce60650",
+            "dataTxId": "mTfBWVnrrc95EbcWvcrqAkQleXosl3bPlUg5kak2uD0",
+            "metadataTxId": "qTp-ffDfAlZw2z-3NQZo5pbMlUotkkamnhSoR8zyYfg",
+            "bundledIn": "Jt7Kx956_MYFdtvtvxs5sSWxVsZFXMuYtZfXv6OjOko",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Munchen.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Miami.glb",
+            "entityId": "61896c7c-aaba-47d5-8f2d-95f25a95b77c",
+            "dataTxId": "bejB2rmJuaydRSfZeeABM9rACa0vyJFSa2yYkYltm5o",
+            "metadataTxId": "jipKqtzNDsWmjcJWR90iVtzouPuzumXS5l1_RH15Vgo",
+            "bundledIn": "ewRdfmQF4f-M53Vee2CuUouUdoVQFsCXh09jhj7C2Hw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Miami.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Moon.glb",
+            "entityId": "42fc94b2-3b5b-471a-86c0-811456461a67",
+            "dataTxId": "b8-DC9QP9mZ_WyHMmhU7_psYns76BZh86chTD-IBR_o",
+            "metadataTxId": "wqCBsJA4mS3oW48tiqK6zd7YaYTgaLZvtlwIKU10hiU",
+            "bundledIn": "ewRdfmQF4f-M53Vee2CuUouUdoVQFsCXh09jhj7C2Hw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Moon.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Music_District.glb",
+            "entityId": "e4c0bdd0-320a-4881-9d6a-2b32334df344",
+            "dataTxId": "OPoUJyj0XAJ8367RPv3kaplq_jlQ69NX8V0hLDQquKI",
+            "metadataTxId": "RaS_uYzlkaRZ9G7tBPet4N-3xUzhczWkU4phkQtoQ14",
+            "bundledIn": "ewRdfmQF4f-M53Vee2CuUouUdoVQFsCXh09jhj7C2Hw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Music_District.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Strawberry_Sands.glb",
+            "entityId": "800ca296-5857-4a8a-be41-c917be572b8a",
+            "dataTxId": "LYySDQdnltRHtt1G_6kxcdmqeXu0uTEL5YWZCM8ZJkw",
+            "metadataTxId": "_DjFyU03QR5gsrh2eB4lycaqtMu1swrkNQdGaiTGfHE",
+            "bundledIn": "ewRdfmQF4f-M53Vee2CuUouUdoVQFsCXh09jhj7C2Hw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Strawberry_Sands.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Milan.glb",
+            "entityId": "2ef2f170-02b3-45d8-b77a-7115bd1b0f6b",
+            "dataTxId": "ikH2O1mgHGm93wodxknWDspswsPtwDz_ek7n-tr99Nc",
+            "metadataTxId": "75kL-_tVmAww0H-SxR489yCRAHUnk4YuQJAnYTeDiEY",
+            "bundledIn": "PKTi9TdD3gILqgfDS44QLbKHAcp3Tr9WgDK6NZ-qLjw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Milan.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Neutron.glb",
+            "entityId": "916c0bf5-741c-42ae-afe0-fbef6095f314",
+            "dataTxId": "PyZfcaJNVKDXp_Y6-LGu1yne5AgMYY0tdZGp5sObDK0",
+            "metadataTxId": "bPBOigq8zw2R2e82ds2d4x5AikN7fOtXOK2ygCbYdpQ",
+            "bundledIn": "PKTi9TdD3gILqgfDS44QLbKHAcp3Tr9WgDK6NZ-qLjw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Neutron.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Pluto.glb",
+            "entityId": "fbeeca69-cd02-4a47-a725-512d10b91ca8",
+            "dataTxId": "-AT8O7yt4VjI2Dc2_BTrZLUM-_Fl0Rptyg8usP4_9NI",
+            "metadataTxId": "PTv0LuexW5B8qKFEGJdVfxdnv80tOAbHh88Qt0JLqdA",
+            "bundledIn": "PKTi9TdD3gILqgfDS44QLbKHAcp3Tr9WgDK6NZ-qLjw",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Pluto.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "North_Pole.glb",
+            "entityId": "87b2b2d4-29b6-4f07-aa91-4bc9d52cabf3",
+            "dataTxId": "UiVfALqialpgELQuupqeMWPlaCFjhfuniRliqgUwRho",
+            "metadataTxId": "ELXUjuj_8EoARczd8-Wq5nSoP3FBbjFwXQywriSG9yA",
+            "bundledIn": "jgjAojlgwO8y9ddcwPAHJ07NBrVL0CzidIh7NJYq4GM",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/North_Pole.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "North_Terrace.glb",
+            "entityId": "5681743a-585c-40fc-9d35-3b9d7a3ff634",
+            "dataTxId": "ShvxGgv-EpsxUzyOJZbylMoSZMW10LergJrpuy7IIxs",
+            "metadataTxId": "_BhjXn8dO7uSDK-skeSt0uB_5Dbo1EqMIZroMA9NyVQ",
+            "bundledIn": "jgjAojlgwO8y9ddcwPAHJ07NBrVL0CzidIh7NJYq4GM",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/North_Terrace.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Oasis.glb",
+            "entityId": "4bd6c8b5-d864-4512-9048-5b5cd0ec9725",
+            "dataTxId": "swYi6M9-u0qgQUh5TBxGYwsiX2BD2tPCcQH_ByFbtrc",
+            "metadataTxId": "nBRAuzY1_wSE_3BOoc90_cvs33M3gT2i6pXT3iWn6Zc",
+            "bundledIn": "jgjAojlgwO8y9ddcwPAHJ07NBrVL0CzidIh7NJYq4GM",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Oasis.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Panda.glb",
+            "entityId": "0758d97a-0c5a-420b-8fac-05a109f21e15",
+            "dataTxId": "KyeGMv6uBdt-48G2WPHSWRVL18rUgXYVHYsZhI_ecN8",
+            "metadataTxId": "4wMS_PkP_tTpEbtnTW8j3N27B-fZsHdbBrVFGAfeZMw",
+            "bundledIn": "jgjAojlgwO8y9ddcwPAHJ07NBrVL0CzidIh7NJYq4GM",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Panda.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Pilikai.glb",
+            "entityId": "41b39592-846b-40e0-a5bb-b8fadb4b2231",
+            "dataTxId": "M8iv6cCBU1azibphIHFp2U_4212XJ69i4oLmmYwBMuw",
+            "metadataTxId": "B9JrgI-8-df3JSxxDN5VscUPzveHf5o1hDiG6QQzvkY",
+            "bundledIn": "jgjAojlgwO8y9ddcwPAHJ07NBrVL0CzidIh7NJYq4GM",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Pilikai.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Plan.glb",
+            "entityId": "67d35656-a06d-4f4d-814f-1bc0d3c13e52",
+            "dataTxId": "1GTQhA4bD8aUIpQoOpeqGhrseRiw7TAWAQMkZq8mK3A",
+            "metadataTxId": "4h4FDvkLrisATLUwqvIcw4ji9c_PyLD7SzUgFctmo2s",
+            "bundledIn": "gL0Op8rxB7HlBTXa3E-Aq6A6k1dJ-OTxFrL3-NIr3c0",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Plan.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Poneke.glb",
+            "entityId": "ea19ffc2-b4f5-498f-bed8-3682ff875940",
+            "dataTxId": "qFA4FvgzNYRKGe9pgX8RE9rEj4BM4mBfksTj_cWp-RE",
+            "metadataTxId": "gdl1Hf2a9eYitgl3bm5BAtCIJ48xhHbcIu2g9pfiMQQ",
+            "bundledIn": "gL0Op8rxB7HlBTXa3E-Aq6A6k1dJ-OTxFrL3-NIr3c0",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Poneke.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Proton.glb",
+            "entityId": "301a2190-9229-4572-ba82-288858cd3f03",
+            "dataTxId": "nAnvAnS3oMheKLNnTtaMIcLaJvWkfxEcRgh3wJ7FAkU",
+            "metadataTxId": "5eJxcA7fbq9E9MokZHqWibToA8VqeTf4cz786wyJm_k",
+            "bundledIn": "gL0Op8rxB7HlBTXa3E-Aq6A6k1dJ-OTxFrL3-NIr3c0",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Proton.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Proxima.glb",
+            "entityId": "5623d5ac-bcdd-465b-b774-55471e175500",
+            "dataTxId": "S4jCTilIoPo94Br0AHbvPj9-hRjVGI5Rs0wsQvMo70M",
+            "metadataTxId": "58s_Y4zzOGQthRyuJA03u9A_99mj9KW2ewklj3NmAi4",
+            "bundledIn": "gL0Op8rxB7HlBTXa3E-Aq6A6k1dJ-OTxFrL3-NIr3c0",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Proxima.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Section.glb",
+            "entityId": "638024de-3d81-429e-9534-1a8266e49581",
+            "dataTxId": "gU2XkMB1UUPMPdPGFxOVEdXBKWHAW6Lhxh8fXlOmhwo",
+            "metadataTxId": "KH9kRh3oZwCKHSQA_QU3BPrQ3i5oPprs91nyFbl7pdY",
+            "bundledIn": "gL0Op8rxB7HlBTXa3E-Aq6A6k1dJ-OTxFrL3-NIr3c0",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Section.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Punks.glb",
+            "entityId": "78b36aa1-0819-4ea3-ac54-074ff48ac3de",
+            "dataTxId": "MMbbCNChuL3Dc0KVRT2au5EOdNnG7M2GbtMoOPpy9-s",
+            "metadataTxId": "zVIrglR9AGlO7iUxctgCu8LUKt_YpTeLH-QaHVL07fQ",
+            "bundledIn": "P9u9_DOvJD-wIknofe8H-up2QQLWhaLsEEzvIbnRTSE",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Punks.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Rome.glb",
+            "entityId": "18781d74-a923-4fd7-8b3b-585700f4e417",
+            "dataTxId": "1AHrMJaooZ_fNLWrSEGZXkmdeFMex71W8vpDNLFxDi4",
+            "metadataTxId": "7BaMbSQR7Y8U-B84iZOPnAz4NmAjgVoGUi7Phq3993A",
+            "bundledIn": "P9u9_DOvJD-wIknofe8H-up2QQLWhaLsEEzvIbnRTSE",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Rome.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "San_Francisco.glb",
+            "entityId": "701ef1df-7bdf-40f7-b9e9-d5d3971d961d",
+            "dataTxId": "jcTUVCPhCX6i68FIX4OQmSxKZWTI6NEsmxPsDdSEJ10",
+            "metadataTxId": "aBGMsQ4TAd9W5hGGQWJNY1fEb70JIz2kkIIUTy_lqMI",
+            "bundledIn": "P9u9_DOvJD-wIknofe8H-up2QQLWhaLsEEzvIbnRTSE",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/San_Francisco.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Scripting.glb",
+            "entityId": "0bfa530f-8c40-4163-bb8b-2a6d59955848",
+            "dataTxId": "7SGn-nklnJcNAYtwBtmBW7HtvdIeb_HI1KxBYJdI4G0",
+            "metadataTxId": "YKaD4llan4xKQpwFm4raU4ReqrZj4U3zKqzHTJpVEsc",
+            "bundledIn": "P9u9_DOvJD-wIknofe8H-up2QQLWhaLsEEzvIbnRTSE",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Scripting.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Satoshi.glb",
+            "entityId": "0d24fdb0-67c7-4be9-9842-5fe48b706073",
+            "dataTxId": "5td9fTBtAbng4HCiKQmaoZtljWfGrXN2Q1w9uwG-rF8",
+            "metadataTxId": "tGakp67FoqsIdbp6xcCs1MJTpcHEnem_FhqlJ2jA0Ag",
+            "bundledIn": "CKfarMWtqq5CdG0wRMIKykbwyMNxkCSiskobPH4giFg",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Satoshi.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Shenzhen.glb",
+            "entityId": "124dae75-f275-4db3-8829-f01dcfc566da",
+            "dataTxId": "YJlmlXXRNjJLthWKVvw60iBh_NIANrae07104n4WnnQ",
+            "metadataTxId": "Z8bW9blokvK2NEGnbWdeSzxb9WxbkHeySltIa8jQm1g",
+            "bundledIn": "CKfarMWtqq5CdG0wRMIKykbwyMNxkCSiskobPH4giFg",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Shenzhen.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Silver.glb",
+            "entityId": "3b1ff033-301e-485e-9a87-e3b5db911ae6",
+            "dataTxId": "hKiqrAnwYRWIwwFRsFcw5Bvp3aNQgCDT7JBcXtfcrkE",
+            "metadataTxId": "TZSzTl_ut9YkAt03rZGZfDrFvxRRL5omDoMWY_jn8Zg",
+            "bundledIn": "CKfarMWtqq5CdG0wRMIKykbwyMNxkCSiskobPH4giFg",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Silver.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Spring.glb",
+            "entityId": "b1bd5659-f20d-462a-988c-670ad9720d31",
+            "dataTxId": "MDAoWMFk5E8QXxM-cZOD2sHKAjDxXX6zmUTkzHQTYgM",
+            "metadataTxId": "2u3FVCngMwaXAaG6T3DFmFJzp1aELTXjhlYHVej_Wiw",
+            "bundledIn": "CKfarMWtqq5CdG0wRMIKykbwyMNxkCSiskobPH4giFg",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Spring.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Summer.glb",
+            "entityId": "36c08e08-cc26-48d9-bc34-a55748a973ee",
+            "dataTxId": "JmJxueUvSNE1a9fkOAcwMuzRPLze-ZQdSxPMAy0lQDs",
+            "metadataTxId": "_BR45onVnOkTdulme_YmP2HlRwoOzrpmDwOki3sVpAo",
+            "bundledIn": "EYxBld4SAFZFX-6-p401liH_-lI1_crGbfswPJhvGko",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Summer.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Te_Aro.glb",
+            "entityId": "0036cf62-faca-48f4-9cb9-eb2d25d7a828",
+            "dataTxId": "Jh6AtWjEFc_gcbEthzgluDScLlw4Cpxv__n0INVn3Qs",
+            "metadataTxId": "hVi5n5-dgaZ4hbipRQY9pcGJFMuUKYno85TtnKCvg4g",
+            "bundledIn": "EYxBld4SAFZFX-6-p401liH_-lI1_crGbfswPJhvGko",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Te_Aro.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Test_Island.glb",
+            "entityId": "229a9a4f-4088-4b73-9177-6599baafb04d",
+            "dataTxId": "Ht0TT_AbLIWns6DccO0JAMhNqqrkpdWaTJmOSERTTiM",
+            "metadataTxId": "OYgbvL1QpbKwLaqJQ2ZyjX7hHyn84ECwls4TJCTem1s",
+            "bundledIn": "EYxBld4SAFZFX-6-p401liH_-lI1_crGbfswPJhvGko",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Test_Island.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "The_Bronx.glb",
+            "entityId": "1962596b-f29e-4a05-8679-9e353e3d4e48",
+            "dataTxId": "LbkrbKIt8MPMUW-rBzcxkqx-1BZdsWVqakApbnIAeCk",
+            "metadataTxId": "76uTccj_zPCO-704TCTCUXkCFYLp8asyjn-EiyKaRtU",
+            "bundledIn": "EYxBld4SAFZFX-6-p401liH_-lI1_crGbfswPJhvGko",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/The_Bronx.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "The_Center.glb",
+            "entityId": "5ce4c7d5-4236-401a-a2e9-b77ce2203c64",
+            "dataTxId": "7KSyPYo25482jo_Z7BcukeAzhHNDcnx13o5P3j7Bmr0",
+            "metadataTxId": "flay8QCnb3Hogg1eTvL54jPFWoJaEtOlKX7sC9tudlg",
+            "bundledIn": "EYxBld4SAFZFX-6-p401liH_-lI1_crGbfswPJhvGko",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/The_Center.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "The_Playa.glb",
+            "entityId": "a1890b80-5482-4a67-922e-0214b6a1a84f",
+            "dataTxId": "7k2iM4YV0yAjVqNYFAbYiC7eTdGhzCT60yugFfI-jhA",
+            "metadataTxId": "D_oN03cUqkL2wUbO6K_fsqizIsCFD2DVg38C0FXVxTM",
+            "bundledIn": "EYxBld4SAFZFX-6-p401liH_-lI1_crGbfswPJhvGko",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/The_Playa.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Trinity.glb",
+            "entityId": "47bafe43-31e2-4aae-a665-e97761cef0bb",
+            "dataTxId": "Lx1m_VGJIWGVp_AYqQMhQp4wPJrKas3EQz28S8UMdhs",
+            "metadataTxId": "a-X1KTlXL4lByg-maLL5ZcZgd55NvFslFimT-Yw_MYc",
+            "bundledIn": "EYxBld4SAFZFX-6-p401liH_-lI1_crGbfswPJhvGko",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Trinity.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Vibes.glb",
+            "entityId": "c29aa158-97cc-4dce-a89d-cdcda6670cc3",
+            "dataTxId": "GT5YVoZt0vbaq6JusGsgfWvW343HSaV58y47lLQDzgc",
+            "metadataTxId": "1DT-4nR3F0i-ifRGB0r83FrUtVCbWiE_cvGAdd9_S-8",
+            "bundledIn": "_jJwZZWLVCFRcAzOMlRl_Dr4noDkNhXI7b4eYYqx-5w",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Vibes.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "West_End.glb",
+            "entityId": "4e499c2a-d9fa-41f5-ac11-356f32ad150b",
+            "dataTxId": "yGYrGfeVZP0Kt0USci0A8UI5IRG0lQgaC7cn9IFTj5o",
+            "metadataTxId": "45CuhDM63P1FBgsR4bm_pmUdTeWBmmP_PD0_TwQNUjE",
+            "bundledIn": "_jJwZZWLVCFRcAzOMlRl_Dr4noDkNhXI7b4eYYqx-5w",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/West_End.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "West_Tokyo.glb",
+            "entityId": "7dd30998-031d-43fc-897b-17181c391a79",
+            "dataTxId": "5BzuDvPzylxXfmB1Kba4gqnwmXWKF0AROUqRUb7i2FQ",
+            "metadataTxId": "ck4GO7kXly-5jHRa9NOYajndy8B-myEtRXi_oumqlps",
+            "bundledIn": "_jJwZZWLVCFRcAzOMlRl_Dr4noDkNhXI7b4eYYqx-5w",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/West_Tokyo.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "Winter.glb",
+            "entityId": "969dac5c-5f1d-4f76-b09f-d3390720ff26",
+            "dataTxId": "O-iglUKJueYIHNO4oP0vFh1M7vLz5KWxtWOqa50X778",
+            "metadataTxId": "faVMjS0u3279d0OW7XBBkIoJV4sMehYc_GxP3_KwnPg",
+            "bundledIn": "n9HDwpaqaou_16-sV_0hiQEUoFg_bhjusCO3z-mFtkM",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/Winter.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "新宿区.glb",
+            "entityId": "318471f6-63cf-4733-896f-50879cb2699a",
+            "dataTxId": "rW3sp2e1mYfHjjKWSHC7kzkk9MQy_aCTDmW-Z9OPJjI",
+            "metadataTxId": "eiP6gbFWl3SQ2ymZ6zePYbs4ziAe-Mex0QpZWtCgYZM",
+            "bundledIn": "n9HDwpaqaou_16-sV_0hiQEUoFg_bhjusCO3z-mFtkM",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/新宿区.glb"
+        },
+        {
+            "type": "file",
+            "entityName": "서울.glb",
+            "entityId": "d3e33b8e-2545-4109-8b2a-04ee071dd46e",
+            "dataTxId": "N3B1vkAWajIw9SgQzo0nQLjVsBjGhnZRJoz4FOJutiQ",
+            "metadataTxId": "OX9Y_0lu5RSNA7stPr3QBkG8xTX4q61x1KEvyqeJ8iw",
+            "bundledIn": "n9HDwpaqaou_16-sV_0hiQEUoFg_bhjusCO3z-mFtkM",
+            "sourceUri": "file:///home/jin/repo/Cryptovoxels-snapshots/3-25-24/glbs/서울.glb"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "YfyhxlxtKkEepNmfnOY79Li0b_0RpI6vHA7-uj_IqbE"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "FPBYNlhpdAOn59CEUSX4v9ZGiNr4I0v9hgrDRz_gBrw"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "g-e9sMrk1YmHMrP7MYEKrg3I0l2a26KyJ2za8z7CW_Q"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "FPQ4NhvR1RkIrXO8Nt0PnKDpLdfwcdN1pbeEk6HYRu4"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "iYchieYgb4x17NIeH7sb_4nf59LA2KTujDPNSCEpl2c"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "QeXBdFN4JDmyCI0R2x6CXuPpYPA7OabuQcn9UNje_04"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "XuhV_tNJ-SLnL5uT3zDx_9-Ll_4JZwXfuH6AXatyeo8"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "D210CrCBCvj5b5oIdtT_-6Dj1qXTVnkD9T4DYrNtt6M"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "Jt7Kx956_MYFdtvtvxs5sSWxVsZFXMuYtZfXv6OjOko"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "ewRdfmQF4f-M53Vee2CuUouUdoVQFsCXh09jhj7C2Hw"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "PKTi9TdD3gILqgfDS44QLbKHAcp3Tr9WgDK6NZ-qLjw"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "jgjAojlgwO8y9ddcwPAHJ07NBrVL0CzidIh7NJYq4GM"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "gL0Op8rxB7HlBTXa3E-Aq6A6k1dJ-OTxFrL3-NIr3c0"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "P9u9_DOvJD-wIknofe8H-up2QQLWhaLsEEzvIbnRTSE"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "CKfarMWtqq5CdG0wRMIKykbwyMNxkCSiskobPH4giFg"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "EYxBld4SAFZFX-6-p401liH_-lI1_crGbfswPJhvGko"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "_jJwZZWLVCFRcAzOMlRl_Dr4noDkNhXI7b4eYYqx-5w"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "n9HDwpaqaou_16-sV_0hiQEUoFg_bhjusCO3z-mFtkM"
+        }
+    ],
+    "tips": [
+        {
+            "recipient": "-OtTqVqAGqTBzhviZptnUTys7rWenNrnQcjGtvDBDdo",
+            "txId": "GJFSxw0zeQOEfsdapMx8tuLY0f5jnzusZfiYA_b92BY",
+            "winston": "55548065126"
+        },
+        {
+            "recipient": "-W8GMY_0_Njr08R_hKqG1KLRk3_IZVCYLXETyN_mBF0",
+            "txId": "YfyhxlxtKkEepNmfnOY79Li0b_0RpI6vHA7-uj_IqbE",
+            "winston": "54807794300"
+        },
+        {
+            "recipient": "vn6Z31Dy8rV8Ion7MTcPjwhLcEJnAIObHIGDHP8oGDI",
+            "txId": "FPBYNlhpdAOn59CEUSX4v9ZGiNr4I0v9hgrDRz_gBrw",
+            "winston": "54561037358"
+        },
+        {
+            "recipient": "1bNfiHtlAXRdB0Z5aBWj0JUur0zcKkgbmLZAq_mADWs",
+            "txId": "g-e9sMrk1YmHMrP7MYEKrg3I0l2a26KyJ2za8z7CW_Q",
+            "winston": "54615872234"
+        },
+        {
+            "recipient": "DtTSW9Sua_LjzZlImC4QbcHw3dow6duMh2mfEOCSf70",
+            "txId": "FPQ4NhvR1RkIrXO8Nt0PnKDpLdfwcdN1pbeEk6HYRu4",
+            "winston": "54752959424"
+        },
+        {
+            "recipient": "FAxDUPlFfJrLDl6BvUlPw3EJOEEeg6WQbhiWidU7ueY",
+            "txId": "iYchieYgb4x17NIeH7sb_4nf59LA2KTujDPNSCEpl2c",
+            "winston": "54094940912"
+        },
+        {
+            "recipient": "Zznp65qgTIm2QBMjjoEaHKOmQrpTu0tfOcdbkm_qoL4",
+            "txId": "QeXBdFN4JDmyCI0R2x6CXuPpYPA7OabuQcn9UNje_04",
+            "winston": "53656261904"
+        },
+        {
+            "recipient": "YQGYA7WH6TqMoLBOigEpIQwW1eRqeUvSsYDEQUyMdT0",
+            "txId": "XuhV_tNJ-SLnL5uT3zDx_9-Ll_4JZwXfuH6AXatyeo8",
+            "winston": "54122358350"
+        },
+        {
+            "recipient": "Zznp65qgTIm2QBMjjoEaHKOmQrpTu0tfOcdbkm_qoL4",
+            "txId": "D210CrCBCvj5b5oIdtT_-6Dj1qXTVnkD9T4DYrNtt6M",
+            "winston": "54286862978"
+        },
+        {
+            "recipient": "Zznp65qgTIm2QBMjjoEaHKOmQrpTu0tfOcdbkm_qoL4",
+            "txId": "Jt7Kx956_MYFdtvtvxs5sSWxVsZFXMuYtZfXv6OjOko",
+            "winston": "53930436284"
+        },
+        {
+            "recipient": "i325n3L2UvgcavEM8UnFfY0OWBiyf2RrbNsLStPI73o",
+            "txId": "ewRdfmQF4f-M53Vee2CuUouUdoVQFsCXh09jhj7C2Hw",
+            "winston": "54670707110"
+        },
+        {
+            "recipient": "Zznp65qgTIm2QBMjjoEaHKOmQrpTu0tfOcdbkm_qoL4",
+            "txId": "PKTi9TdD3gILqgfDS44QLbKHAcp3Tr9WgDK6NZ-qLjw",
+            "winston": "53656261904"
+        },
+        {
+            "recipient": "qBsg4NuN3Slbt9C3S0SpfahdQl1L0y_UCFzoxXw_KnI",
+            "txId": "jgjAojlgwO8y9ddcwPAHJ07NBrVL0CzidIh7NJYq4GM",
+            "winston": "53135330582"
+        },
+        {
+            "recipient": "Zznp65qgTIm2QBMjjoEaHKOmQrpTu0tfOcdbkm_qoL4",
+            "txId": "gL0Op8rxB7HlBTXa3E-Aq6A6k1dJ-OTxFrL3-NIr3c0",
+            "winston": "54122358350"
+        },
+        {
+            "recipient": "Zznp65qgTIm2QBMjjoEaHKOmQrpTu0tfOcdbkm_qoL4",
+            "txId": "P9u9_DOvJD-wIknofe8H-up2QQLWhaLsEEzvIbnRTSE",
+            "winston": "53848183970"
+        },
+        {
+            "recipient": "DtTSW9Sua_LjzZlImC4QbcHw3dow6duMh2mfEOCSf70",
+            "txId": "CKfarMWtqq5CdG0wRMIKykbwyMNxkCSiskobPH4giFg",
+            "winston": "53327252648"
+        },
+        {
+            "recipient": "ka_hAAWru0qzK0KprCbvHX5J6QJtkxEiDOHMM1kNBs8",
+            "txId": "EYxBld4SAFZFX-6-p401liH_-lI1_crGbfswPJhvGko",
+            "winston": "52614399260"
+        },
+        {
+            "recipient": "-W8GMY_0_Njr08R_hKqG1KLRk3_IZVCYLXETyN_mBF0",
+            "txId": "_jJwZZWLVCFRcAzOMlRl_Dr4noDkNhXI7b4eYYqx-5w",
+            "winston": "53957853722"
+        },
+        {
+            "recipient": "Zznp65qgTIm2QBMjjoEaHKOmQrpTu0tfOcdbkm_qoL4",
+            "txId": "n9HDwpaqaou_16-sV_0hiQEUoFg_bhjusCO3z-mFtkM",
+            "winston": "26787172660"
+        }
+    ],
+    "fees": {
+        "GJFSxw0zeQOEfsdapMx8tuLY0f5jnzusZfiYA_b92BY": "370320434178",
+        "YfyhxlxtKkEepNmfnOY79Li0b_0RpI6vHA7-uj_IqbE": "365385295337",
+        "FPBYNlhpdAOn59CEUSX4v9ZGiNr4I0v9hgrDRz_gBrw": "363740249057",
+        "g-e9sMrk1YmHMrP7MYEKrg3I0l2a26KyJ2za8z7CW_Q": "364105814897",
+        "FPQ4NhvR1RkIrXO8Nt0PnKDpLdfwcdN1pbeEk6HYRu4": "365019729497",
+        "iYchieYgb4x17NIeH7sb_4nf59LA2KTujDPNSCEpl2c": "360632939416",
+        "QeXBdFN4JDmyCI0R2x6CXuPpYPA7OabuQcn9UNje_04": "357708412696",
+        "XuhV_tNJ-SLnL5uT3zDx_9-Ll_4JZwXfuH6AXatyeo8": "360815722336",
+        "D210CrCBCvj5b5oIdtT_-6Dj1qXTVnkD9T4DYrNtt6M": "361912419857",
+        "Jt7Kx956_MYFdtvtvxs5sSWxVsZFXMuYtZfXv6OjOko": "359536241896",
+        "ewRdfmQF4f-M53Vee2CuUouUdoVQFsCXh09jhj7C2Hw": "364471380737",
+        "PKTi9TdD3gILqgfDS44QLbKHAcp3Tr9WgDK6NZ-qLjw": "357708412696",
+        "jgjAojlgwO8y9ddcwPAHJ07NBrVL0CzidIh7NJYq4GM": "354235537216",
+        "gL0Op8rxB7HlBTXa3E-Aq6A6k1dJ-OTxFrL3-NIr3c0": "360815722336",
+        "P9u9_DOvJD-wIknofe8H-up2QQLWhaLsEEzvIbnRTSE": "358987893136",
+        "CKfarMWtqq5CdG0wRMIKykbwyMNxkCSiskobPH4giFg": "355515017656",
+        "EYxBld4SAFZFX-6-p401liH_-lI1_crGbfswPJhvGko": "350762661735",
+        "_jJwZZWLVCFRcAzOMlRl_Dr4noDkNhXI7b4eYYqx-5w": "359719024816",
+        "n9HDwpaqaou_16-sV_0hiQEUoFg_bhjusCO3z-mFtkM": "178581151072"
+    }
+}
