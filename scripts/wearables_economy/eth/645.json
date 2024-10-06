@@ -1,0 +1,27 @@
+{
+  "Collection Info": {
+    "Collection Name": "Monkey Kingdom",
+    "Symbol": null,
+    "Token Type": "ERC1155"
+  },
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "0.10 ETH",
+    "Initial Sale Volume": "0.10 ETH",
+    "Secondary Sale Volume": "0.00 ETH",
+    "Unique Holders": 12,
+    "Total Transfers": 31,
+    "Mints": 5,
+    "Average Price": "0.1000 ETH",
+    "Median Price": "0.1000 ETH",
+    "Price Range": "0.1000 - 0.1000 ETH",
+    "Top 10 Tokens by Volume": [
+      "Token 1: 0.10 ETH"
+    ],
+    "Top 10 Wallets by Volume": [
+      "0x749bd6b114ba2e7a9092d4a293250e1f432ebc8a: 0.10 ETH"
+    ],
+    "Monthly Volumes": {
+      "2021-12": "0.10 ETH"
+    }
+  }
+}

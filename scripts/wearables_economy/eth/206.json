@@ -1,0 +1,21 @@
+{
+  "Collection Info": {
+    "Collection Name": "meta.bktr.io",
+    "Symbol": null,
+    "Token Type": "ERC1155"
+  },
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "0.00 ETH",
+    "Initial Sale Volume": "0.00 ETH",
+    "Secondary Sale Volume": "0.00 ETH",
+    "Unique Holders": 2,
+    "Total Transfers": 4,
+    "Mints": 2,
+    "Average Price": "0.0000 ETH",
+    "Median Price": "0.0000 ETH",
+    "Price Range": "0.0000 - 0.0000 ETH",
+    "Top 10 Tokens by Volume": [],
+    "Top 10 Wallets by Volume": [],
+    "Monthly Volumes": {}
+  }
+}

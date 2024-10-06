@@ -1,0 +1,49 @@
+{
+  "Collection Info": {
+    "Collection Name": "Loie",
+    "Symbol": null,
+    "Token Type": "ERC1155"
+  },
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "0.34 ETH",
+    "Initial Sale Volume": "0.24 ETH",
+    "Secondary Sale Volume": "0.10 ETH",
+    "Unique Holders": 43,
+    "Total Transfers": 128,
+    "Mints": 50,
+    "Average Price": "0.0108 ETH",
+    "Median Price": "0.0100 ETH",
+    "Price Range": "0.0001 - 0.0300 ETH",
+    "Top 10 Tokens by Volume": [
+      "Token 3: 0.05 ETH",
+      "Token 23: 0.04 ETH",
+      "Token 41: 0.03 ETH",
+      "Token 15: 0.03 ETH",
+      "Token 4: 0.02 ETH",
+      "Token 45: 0.02 ETH",
+      "Token 46: 0.01 ETH",
+      "Token 31: 0.01 ETH",
+      "Token 20: 0.01 ETH",
+      "Token 17: 0.01 ETH"
+    ],
+    "Top 10 Wallets by Volume": [
+      "0x6b261a3ec2405ae0e8e0546ad6906e65af8b8868: 0.05 ETH",
+      "0xff7918f8587e5c7289dccc51cbe3bf20057d4e45: 0.04 ETH",
+      "0xb7d3a787a39f25457ca511dc3f0591b546f5e02f: 0.03 ETH",
+      "0x5e758f5967c46767253f0320b6a1d78a2d1476cb: 0.03 ETH",
+      "0xe03a8f31084e0999457ddc18de85e5f5819d4b5f: 0.03 ETH",
+      "0x7c41f39b8d12409486d9ed36134aed9b2345cb6c: 0.02 ETH",
+      "0x86fef6ec5320f6cf9231f524ae89e198419cdc0f: 0.02 ETH",
+      "0xc509ecaa3d2123855dcc9b1aed6b2b8a015aabc2: 0.02 ETH",
+      "0x882f9364f015637b54a2702d6448e0979dc9b449: 0.01 ETH",
+      "0xd1978e0339cae8074a99038827bb8d8e83411f47: 0.01 ETH"
+    ],
+    "Monthly Volumes": {
+      "2021-06": "0.01 ETH",
+      "2021-07": "0.23 ETH",
+      "2021-08": "0.04 ETH",
+      "2021-10": "0.01 ETH",
+      "2021-12": "0.05 ETH"
+    }
+  }
+}

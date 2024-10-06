@@ -1,0 +1,40 @@
+{
+  "Collection Info": {
+    "Collection Name": "XoB",
+    "Symbol": null,
+    "Token Type": "ERC1155"
+  },
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "0.12 ETH",
+    "Initial Sale Volume": "0.09 ETH",
+    "Secondary Sale Volume": "0.04 ETH",
+    "Unique Holders": 46,
+    "Total Transfers": 95,
+    "Mints": 17,
+    "Average Price": "0.0150 ETH",
+    "Median Price": "0.0125 ETH",
+    "Price Range": "0.0100 - 0.0250 ETH",
+    "Top 10 Tokens by Volume": [
+      "Token 1: 0.05 ETH",
+      "Token 9: 0.02 ETH",
+      "Token 14: 0.01 ETH",
+      "Token 16: 0.01 ETH",
+      "Token 6: 0.01 ETH",
+      "Token 8: 0.01 ETH"
+    ],
+    "Top 10 Wallets by Volume": [
+      "0x175b49d39c059d764b4d268e66822eb420f46db9: 0.03 ETH",
+      "0xd50b6379c3103c461e837e942c34dc98f1ddf838: 0.03 ETH",
+      "0x291121da7faeedd25cefc0e289b359de52b8050c: 0.03 ETH",
+      "0x0007b9c4d506c6be7b4a3d454d078db5899172da: 0.01 ETH",
+      "0x11e24e1524cdb1d1d30bc28d79ba3b1809e53a6f: 0.01 ETH",
+      "0xad3c2c158272fc520657511278db9a185e6de2bc: 0.01 ETH"
+    ],
+    "Monthly Volumes": {
+      "2021-07": "0.05 ETH",
+      "2021-09": "0.01 ETH",
+      "2021-11": "0.03 ETH",
+      "2022-01": "0.03 ETH"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Collection Info": {
+    "Collection Name": "WeaREYbles",
+    "Symbol": null,
+    "Token Type": "ERC1155"
+  },
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "0.02 ETH",
+    "Initial Sale Volume": "0.01 ETH",
+    "Secondary Sale Volume": "0.01 ETH",
+    "Unique Holders": 10,
+    "Total Transfers": 10,
+    "Mints": 1,
+    "Average Price": "0.0100 ETH",
+    "Median Price": "0.0100 ETH",
+    "Price Range": "0.0100 - 0.0100 ETH",
+    "Top 10 Tokens by Volume": [
+      "Token 1: 0.02 ETH"
+    ],
+    "Top 10 Wallets by Volume": [
+      "0x6244ccf4b0d9896dedc15f647f08e27f717fef3e: 0.01 ETH",
+      "0xb3f0771103120f80ee3f2fdedf9c856a3af683b1: 0.01 ETH"
+    ],
+    "Monthly Volumes": {
+      "2021-07": "0.02 ETH"
+    }
+  }
+}

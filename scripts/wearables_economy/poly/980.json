@@ -1,0 +1,46 @@
+{
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "0.61 MATIC",
+    "Initial Sale Volume": "0.55 MATIC",
+    "Secondary Sale Volume": "0.06 MATIC",
+    "Unique Holders": 183,
+    "Total Transfers": 623,
+    "Mints": 159,
+    "Average Price": "0.0340 MATIC",
+    "Median Price": "0.0272 MATIC",
+    "Price Range": "0.0090 - 0.1500 MATIC",
+    "Top 10 Tokens by Volume": [
+      "Token 21: 0.15 MATIC",
+      "Token 80: 0.08 MATIC",
+      "Token 41: 0.05 MATIC",
+      "Token 114: 0.04 MATIC",
+      "Token 36: 0.03 MATIC",
+      "Token 23: 0.03 MATIC",
+      "Token 75: 0.03 MATIC",
+      "Token 15: 0.03 MATIC",
+      "Token 38: 0.03 MATIC",
+      "Token 76: 0.03 MATIC"
+    ],
+    "Top 10 Wallets by Volume": [
+      "0x5a12ea5e06694b716a4d2516047a668224f149f1: 0.15 MATIC",
+      "0x6e68c5879ed547fedf8dc8219335553b6894f20f: 0.14 MATIC",
+      "0x035b16b7700efb24d200dad5d5d30c35ca109cac: 0.11 MATIC",
+      "0xa1df1ab6b19bb14dee074ac79c301385391e2fe4: 0.07 MATIC",
+      "0x69ae11c3f37cb732a36cada27c165a5d14833081: 0.05 MATIC",
+      "0xba7e6ee95fd0a987f321e1fa7cb308edb2760581: 0.03 MATIC",
+      "0x5977e38677bf7669496044045e90f776438cbe2d: 0.02 MATIC",
+      "0xfe540ac3ab59b4e58d7a724fb35f829176c0f512: 0.02 MATIC",
+      "0x0365e2eeefcb0903f5e99e3edfa0ba49083d0b5a: 0.02 MATIC",
+      "0x2cd7efbb254346544cdc103fdc556cf9fc6fab57: 0.01 MATIC"
+    ],
+    "Monthly Volumes": {
+      "2022-02": "0.21 MATIC",
+      "2022-03": "0.18 MATIC",
+      "2022-04": "0.08 MATIC",
+      "2022-06": "0.07 MATIC",
+      "2022-07": "0.05 MATIC",
+      "2022-08": "0.02 MATIC",
+      "2022-09": "0.01 MATIC"
+    }
+  }
+}

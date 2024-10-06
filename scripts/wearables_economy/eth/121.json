@@ -1,0 +1,49 @@
+{
+  "Collection Info": {
+    "Collection Name": "Futurist Social Club",
+    "Symbol": null,
+    "Token Type": "ERC1155"
+  },
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "0.53 ETH",
+    "Initial Sale Volume": "0.21 ETH",
+    "Secondary Sale Volume": "0.32 ETH",
+    "Unique Holders": 78,
+    "Total Transfers": 154,
+    "Mints": 30,
+    "Average Price": "0.0230 ETH",
+    "Median Price": "0.0300 ETH",
+    "Price Range": "0.0100 - 0.0500 ETH",
+    "Top 10 Tokens by Volume": [
+      "Token 8: 0.15 ETH",
+      "Token 10: 0.12 ETH",
+      "Token 9: 0.09 ETH",
+      "Token 12: 0.05 ETH",
+      "Token 1: 0.03 ETH",
+      "Token 13: 0.03 ETH",
+      "Token 6: 0.02 ETH",
+      "Token 5: 0.02 ETH",
+      "Token 2: 0.02 ETH"
+    ],
+    "Top 10 Wallets by Volume": [
+      "0xfdaee49c4b10266bb120ed899502c3ad5baa99cd: 0.08 ETH",
+      "0x5ac6456c714d46beb854713e0c49af924926dec7: 0.08 ETH",
+      "0x52e278ee4076948ebfc76cfaa7b3ac0730e9ec19: 0.04 ETH",
+      "0x6904dfa88d5345dc7e2de0e1eba32a6c1e672b93: 0.03 ETH",
+      "0xbacf93aa8a67d8f046a0601dee24a5cb4d49ada5: 0.03 ETH",
+      "0xf13e42c19fc64dc16fc20c73d67adb61133ef52b: 0.03 ETH",
+      "0xf34d00ce3fcd8989a9d445fbba39fe752ed03550: 0.03 ETH",
+      "0x5dc61faeccc3d45b736d388c3644e5a6c0c6d919: 0.03 ETH",
+      "0x86fef6ec5320f6cf9231f524ae89e198419cdc0f: 0.03 ETH",
+      "0xe773382a7574de1c82b1f67099e680c043048708: 0.03 ETH"
+    ],
+    "Monthly Volumes": {
+      "2021-07": "0.20 ETH",
+      "2021-08": "0.04 ETH",
+      "2021-09": "0.11 ETH",
+      "2021-10": "0.11 ETH",
+      "2021-11": "0.06 ETH",
+      "2021-12": "0.01 ETH"
+    }
+  }
+}

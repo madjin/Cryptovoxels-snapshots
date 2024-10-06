@@ -1,0 +1,47 @@
+{
+  "Collection Info": {
+    "Collection Name": "Derage",
+    "Symbol": null,
+    "Token Type": "ERC1155"
+  },
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "3.83 ETH",
+    "Initial Sale Volume": "0.45 ETH",
+    "Secondary Sale Volume": "3.38 ETH",
+    "Unique Holders": 43,
+    "Total Transfers": 129,
+    "Mints": 10,
+    "Average Price": "0.0461 ETH",
+    "Median Price": "0.0200 ETH",
+    "Price Range": "0.0100 - 0.1000 ETH",
+    "Top 10 Tokens by Volume": [
+      "Token 7: 1.25 ETH",
+      "Token 3: 0.71 ETH",
+      "Token 5: 0.63 ETH",
+      "Token 6: 0.49 ETH",
+      "Token 4: 0.37 ETH",
+      "Token 8: 0.15 ETH",
+      "Token 1: 0.11 ETH",
+      "Token 9: 0.10 ETH",
+      "Token 2: 0.02 ETH"
+    ],
+    "Top 10 Wallets by Volume": [
+      "0x69353ce89dcd43d3d8ed1ad996be652b6f37c38e: 2.37 ETH",
+      "0x34a32ad4ba1ea1eb02ccd3ed5b9af9a8d8ea07a8: 0.50 ETH",
+      "0x67f47447009e321244000de12631a2e30c55420b: 0.12 ETH",
+      "0xe1268b49d3e4e559f466239df4bee1d5cae04356: 0.09 ETH",
+      "0xd858818bd0f9e2ae54692a84c5eb7ada47a7142b: 0.08 ETH",
+      "0x829949946ab1e87ebf9431207ab8d5cf8f1372c6: 0.06 ETH",
+      "0xcc00998b7f75f25b5f5409e88b1d6600139cd8f4: 0.06 ETH",
+      "0x848a9126ff57004aa8bfdc99384f36a4754d4367: 0.06 ETH",
+      "0x8c516910bec213d2709e1d076db4c65c3c1fc829: 0.04 ETH",
+      "0x1d915159aeee1c9d71b4be758301938b26be0966: 0.04 ETH"
+    ],
+    "Monthly Volumes": {
+      "2022-03": "2.52 ETH",
+      "2022-04": "1.02 ETH",
+      "2022-07": "0.21 ETH",
+      "2024-03": "0.08 ETH"
+    }
+  }
+}

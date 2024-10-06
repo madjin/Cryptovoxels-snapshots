@@ -1,0 +1,43 @@
+{
+  "Collection Info": {
+    "Collection Name": "EulerBeats Wearables",
+    "Symbol": null,
+    "Token Type": "ERC1155"
+  },
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "1.84 ETH",
+    "Initial Sale Volume": "0.10 ETH",
+    "Secondary Sale Volume": "1.74 ETH",
+    "Unique Holders": 258,
+    "Total Transfers": 269,
+    "Mints": 1,
+    "Average Price": "0.1225 ETH",
+    "Median Price": "0.0950 ETH",
+    "Price Range": "0.0050 - 0.2900 ETH",
+    "Top 10 Tokens by Volume": [
+      "Token 1: 1.84 ETH"
+    ],
+    "Top 10 Wallets by Volume": [
+      "0xdf5b0e3887ec6cb55c261d4bc051de8dbf7d8650: 0.29 ETH",
+      "0xd50f649a2c9fd7ae88c223da80e985d71de45593: 0.28 ETH",
+      "0x52ba060eb7a8600ce072737f55d11fcc9a449bd2: 0.27 ETH",
+      "0x39413151075680dd51802af27b28c348ac38f9e2: 0.23 ETH",
+      "0x2bc12061c8912505978472c21d4a23db43af62aa: 0.10 ETH",
+      "0x15815e4b4c65fd015e340ced7cb71d0e325a6c28: 0.10 ETH",
+      "0x317f69a5246ed4bad85877e1977a48bd29127344: 0.10 ETH",
+      "0xb7fcd6546c697352ea31f62f36d73f7e57c79779: 0.10 ETH",
+      "0x255eefd8307b3878be1e620fbd6a0ffa193b1cc5: 0.09 ETH",
+      "0x000000064730640b7d670408d74280924883064f: 0.07 ETH"
+    ],
+    "Monthly Volumes": {
+      "2021-08": "1.06 ETH",
+      "2021-09": "0.10 ETH",
+      "2021-10": "0.33 ETH",
+      "2021-11": "0.10 ETH",
+      "2021-12": "0.01 ETH",
+      "2022-01": "0.07 ETH",
+      "2022-10": "0.07 ETH",
+      "2023-01": "0.10 ETH"
+    }
+  }
+}

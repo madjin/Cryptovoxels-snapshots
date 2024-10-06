@@ -1,0 +1,39 @@
+{
+  "Collection Info": {
+    "Collection Name": "BCA Hammer",
+    "Symbol": null,
+    "Token Type": "ERC1155"
+  },
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "0.01 ETH",
+    "Initial Sale Volume": "0.00 ETH",
+    "Secondary Sale Volume": "0.01 ETH",
+    "Unique Holders": 140,
+    "Total Transfers": 155,
+    "Mints": 2,
+    "Average Price": "0.0001 ETH",
+    "Median Price": "0.0001 ETH",
+    "Price Range": "0.0001 - 0.0001 ETH",
+    "Top 10 Tokens by Volume": [
+      "Token 1: 0.01 ETH"
+    ],
+    "Top 10 Wallets by Volume": [
+      "0x5e06d2abadf3f8880dbc45f0a10b5c8ef6aa7fe7: 0.00 ETH",
+      "0x5a6a883a35200faf34760d6f78e2f9ba73201e06: 0.00 ETH",
+      "0xc0d4b0ce118877b553d95b5b28cf68531ad51992: 0.00 ETH",
+      "0x7101a39c053954e3e7fd010fdf3f6ef6bdbcbde0: 0.00 ETH",
+      "0x218feec0c76b9045ba896b7cba47fecc6e4e2cf5: 0.00 ETH",
+      "0xa2ef95b341b522efe4aa202f178b678e5201d2ba: 0.00 ETH",
+      "0x4029fe8e64a2260c133f45a76b837e5dcfe44a9a: 0.00 ETH",
+      "0x98d562c7a4781e3e6c0d16f67469b0a3b0cb25c7: 0.00 ETH",
+      "0xcf8eb33a7718582e8070e4d114e016d6c1d7b41e: 0.00 ETH",
+      "0x496d918857c75528ee5a3cdeb65f5c195a146658: 0.00 ETH"
+    ],
+    "Monthly Volumes": {
+      "2021-06": "0.00 ETH",
+      "2021-07": "0.01 ETH",
+      "2021-08": "0.00 ETH",
+      "2021-10": "0.00 ETH"
+    }
+  }
+}

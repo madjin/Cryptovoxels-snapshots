@@ -1,0 +1,27 @@
+{
+  "Collection Info": {
+    "Collection Name": "praetorian-cv-wear",
+    "Symbol": null,
+    "Token Type": "ERC1155"
+  },
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "0.03 ETH",
+    "Initial Sale Volume": "0.03 ETH",
+    "Secondary Sale Volume": "0.00 ETH",
+    "Unique Holders": 17,
+    "Total Transfers": 26,
+    "Mints": 6,
+    "Average Price": "0.0300 ETH",
+    "Median Price": "0.0300 ETH",
+    "Price Range": "0.0300 - 0.0300 ETH",
+    "Top 10 Tokens by Volume": [
+      "Token 3: 0.03 ETH"
+    ],
+    "Top 10 Wallets by Volume": [
+      "0x3531addf2ce7877d54aa4ba0748ab261c3e5149a: 0.03 ETH"
+    ],
+    "Monthly Volumes": {
+      "2021-06": "0.03 ETH"
+    }
+  }
+}

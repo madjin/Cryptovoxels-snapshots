@@ -1,0 +1,43 @@
+{
+  "Collection Info": {
+    "Collection Name": "Footwear Range",
+    "Symbol": null,
+    "Token Type": "ERC1155"
+  },
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "0.36 ETH",
+    "Initial Sale Volume": "0.36 ETH",
+    "Secondary Sale Volume": "0.00 ETH",
+    "Unique Holders": 9,
+    "Total Transfers": 84,
+    "Mints": 68,
+    "Average Price": "0.0356 ETH",
+    "Median Price": "0.0400 ETH",
+    "Price Range": "0.0001 - 0.0860 ETH",
+    "Top 10 Tokens by Volume": [
+      "Token 57: 0.09 ETH",
+      "Token 56: 0.09 ETH",
+      "Token 51: 0.05 ETH",
+      "Token 50: 0.05 ETH",
+      "Token 41: 0.04 ETH",
+      "Token 40: 0.04 ETH",
+      "Token 9: 0.00 ETH",
+      "Token 10: 0.00 ETH",
+      "Token 68: 0.00 ETH",
+      "Token 67: 0.00 ETH"
+    ],
+    "Top 10 Wallets by Volume": [
+      "0x2df2451392fa36073fbd85d1d73281c685fcd3e3: 0.17 ETH",
+      "0x222aa2bd2f79c1dea4d7e5c31d3b077ef056e98f: 0.10 ETH",
+      "0xb7f296fe3b08da98d224fbb663d3fa25150a8eea: 0.08 ETH",
+      "0x6fd6afe08202d7aefdf533ee44dc0e62941c4b22: 0.01 ETH",
+      "0xbd20eb0341aeb3de2bc417d607faca515122868a: 0.00 ETH"
+    ],
+    "Monthly Volumes": {
+      "2021-09": "0.08 ETH",
+      "2021-12": "0.10 ETH",
+      "2022-01": "0.17 ETH",
+      "2022-04": "0.01 ETH"
+    }
+  }
+}

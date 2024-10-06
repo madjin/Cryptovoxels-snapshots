@@ -1,0 +1,53 @@
+{
+  "Collection Info": {
+    "Collection Name": "Bitpixi Swag",
+    "Symbol": null,
+    "Token Type": "ERC1155"
+  },
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "12.76 ETH",
+    "Initial Sale Volume": "2.82 ETH",
+    "Secondary Sale Volume": "9.94 ETH",
+    "Unique Holders": 290,
+    "Total Transfers": 856,
+    "Mints": 67,
+    "Average Price": "0.0353 ETH",
+    "Median Price": "0.0297 ETH",
+    "Price Range": "0.0010 - 2.5000 ETH",
+    "Top 10 Tokens by Volume": [
+      "Token 34: 9.04 ETH",
+      "Token 13: 2.55 ETH",
+      "Token 2: 0.72 ETH",
+      "Token 1: 0.12 ETH",
+      "Token 57: 0.05 ETH",
+      "Token 5: 0.05 ETH",
+      "Token 6: 0.03 ETH",
+      "Token 55: 0.03 ETH",
+      "Token 16: 0.03 ETH",
+      "Token 8: 0.03 ETH"
+    ],
+    "Top 10 Wallets by Volume": [
+      "0x000000000000000000000000000000000000dead: 8.91 ETH",
+      "0x20d2be2972e00d66c2f2591f04dc0e8cfec5aaa9: 2.51 ETH",
+      "0x25ec62e26f38e70fe6a77732cadb274761089b60: 0.11 ETH",
+      "0xf930b0a0500d8f53b2e7efa4f7bcb5cc0c71067e: 0.10 ETH",
+      "0xb88e29f546b99c0a9afd350414ce1054919b6e50: 0.08 ETH",
+      "0x174cc60fccb27c0571c9dfc2f2554be908e1051f: 0.06 ETH",
+      "0x550e970e31a45b06df01a00b1c89a478d4d5e00a: 0.06 ETH",
+      "0x8041a10f9674415e4b5c49c60f3944a59aff6891: 0.06 ETH",
+      "0x379c8800dd777ef5fbabab6689f42d3b31d09bb9: 0.06 ETH",
+      "0x8a69b79bc7e73b2ef9b9f11ad3e17bd2891a34ae: 0.06 ETH"
+    ],
+    "Monthly Volumes": {
+      "2021-07": "0.86 ETH",
+      "2021-08": "2.55 ETH",
+      "2021-09": "0.17 ETH",
+      "2021-10": "0.16 ETH",
+      "2021-11": "0.08 ETH",
+      "2021-12": "0.01 ETH",
+      "2022-01": "0.01 ETH",
+      "2022-03": "0.01 ETH",
+      "2023-08": "8.91 ETH"
+    }
+  }
+}

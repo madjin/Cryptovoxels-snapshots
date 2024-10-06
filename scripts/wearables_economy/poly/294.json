@@ -1,0 +1,58 @@
+{
+  "Economic Analysis (6-year period)": {
+    "Total Trading Volume": "376.12 MATIC",
+    "Initial Sale Volume": "373.61 MATIC",
+    "Secondary Sale Volume": "2.51 MATIC",
+    "Unique Holders": 1275,
+    "Total Transfers": 6143,
+    "Mints": 930,
+    "Average Price": "2.0221 MATIC",
+    "Median Price": "0.0300 MATIC",
+    "Price Range": "0.0001 - 35.0000 MATIC",
+    "Top 10 Tokens by Volume": [
+      "Token 825: 35.00 MATIC",
+      "Token 823: 35.00 MATIC",
+      "Token 826: 35.00 MATIC",
+      "Token 201: 35.00 MATIC",
+      "Token 258: 30.00 MATIC",
+      "Token 260: 30.00 MATIC",
+      "Token 262: 30.00 MATIC",
+      "Token 259: 30.00 MATIC",
+      "Token 257: 30.00 MATIC",
+      "Token 261: 30.00 MATIC"
+    ],
+    "Top 10 Wallets by Volume": [
+      "0x437ac01e4ec253af646cf6f3a7f31c54a878b4a1: 325.00 MATIC",
+      "0x2f447b06d510ed07491e828e85fd39c98b935d85: 29.00 MATIC",
+      "0xb7d3a787a39f25457ca511dc3f0591b546f5e02f: 10.50 MATIC",
+      "0x1d446a3053851c437a38e699241f633245e6d619: 3.72 MATIC",
+      "0x7b19b42564ad1c03625e8306cf20deea2f923a67: 1.82 MATIC",
+      "0xb66c25d27fc323b12986861a443c0ab3554ebd34: 1.14 MATIC",
+      "0x9c12e3aa53346e8434a0ce086072e8600a684f1f: 0.97 MATIC",
+      "0x21db94192456295dd4bd7136580f1877264faafd: 0.60 MATIC",
+      "0x08cf1208e638a5a3623be58d600e35c6199baa9c: 0.39 MATIC",
+      "0x5c9d6f5de9f0b908f916a77f63c991712095e58c: 0.29 MATIC"
+    ],
+    "Monthly Volumes": {
+      "2021-09": "2.82 MATIC",
+      "2021-10": "0.09 MATIC",
+      "2021-11": "0.18 MATIC",
+      "2021-12": "0.20 MATIC",
+      "2022-01": "1.83 MATIC",
+      "2022-02": "0.34 MATIC",
+      "2022-03": "0.30 MATIC",
+      "2022-04": "0.80 MATIC",
+      "2022-05": "1.45 MATIC",
+      "2022-06": "0.14 MATIC",
+      "2022-07": "0.13 MATIC",
+      "2022-08": "0.05 MATIC",
+      "2022-09": "0.05 MATIC",
+      "2022-10": "0.02 MATIC",
+      "2023-02": "0.01 MATIC",
+      "2023-03": "3.72 MATIC",
+      "2024-05": "325.00 MATIC",
+      "2024-07": "18.00 MATIC",
+      "2024-08": "21.00 MATIC"
+    }
+  }
+}
