@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@gltf-transform/core": "^3.10.1",
+    "@gltf-transform/extensions": "^3.10.1",
+    "three": "^0.163.0",
+    "three-mesh-bvh": "^0.7.4",
+    "yargs": "^17.7.2"
+  }
+}
