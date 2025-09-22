@@ -1,0 +1,942 @@
+import * as THREE from 'three'
+import pako from 'pako'
+import { GLTFExporter } from 'three/examples/jsm/exporters/GLTFExporter.js'
+import { VOXLoader, VOXMesh } from 'three/examples/jsm/loaders/VOXLoader.js'
+import { isBoolean } from 'lodash'
+
+import { isBrowser } from '../config'
+
+import { Node } from './Node'
+import { waitForIdle } from '../schedule'
+
+const exporter = new GLTFExporter()
+const voxLoader = new VOXLoader()
+
+const cache = new Map()
+const requestCache = new Map()
+let glassMaterial
+
+const defaults = {
+  name: 'cvparcel',
+  position: [0, 0, 0],
+  rotation: [0, 0, 0],
+  alignToGrid: false,
+  features: false,
+}
+
+const scale = 0.5
+
+export class CVParcel extends Node {
+  constructor(
+    engine,
+    { id, name, position, rotation, parcel, alignToGrid, features }
+  ) {
+    super(engine)
+    this.id = id
+    this.name = name || defaults.name
+    this.object3d = new THREE.Object3D()
+    this.object3d.name = this.name
+    this.object3d.position.fromArray(position || defaults.position)
+    this.object3d.rotation.fromArray(rotation || defaults.rotation)
+    this.object3d.scale.setScalar(scale)
+    this.object3d.hyperfyNode = this
+    this.parcel = parcel
+    this.alignToGrid = isBoolean(alignToGrid)
+      ? alignToGrid
+      : defaults.alignToGrid
+    this.features = isBoolean(features) ? features : defaults.features
+    this.n = 0
+    this.scene = null
+    this.isCVParcel = true
+  }
+
+  async build() {
+    if (!isBrowser) return
+
+    // let scene = cache.get(this.parcel)
+    // if (scene) {
+    //   // ignore cache if features toggle is different
+    //   if (!!scene.features !== this.features) scene = null
+    // }
+    // if (scene) {
+    //   this.detachColliders()
+    //   this.object3d.remove(this.scene.main)
+    //   this.scene = scene
+    //   this.object3d.add(scene.main)
+    //   if (scene.features) {
+    //     this.object3d.add(scene.features)
+    //   }
+    //   this.attachColliders()
+    //   return
+    // }
+
+    // fetch
+    const url = this.getProxyUrl(
+      `https://www.voxels.com/grid/parcels/${this.parcel}`
+      // `https://www.cryptovoxels.com/api/parcels/${this.parcel}.json`
+    )
+    let parcel = requestCache.get(url)
+    if (!parcel) {
+      const n = ++this.n
+      const resp = await fetch(url)
+      const data = await resp.json()
+      if (this.n !== n) return // unmounted or rebuilt
+      parcel = data.parcel
+      requestCache.set(url, parcel)
+    }
+
+    // cleanup
+    if (this.scene) {
+      this.detachColliders()
+      this.object3d.remove(this.scene.main)
+      this.object3d.remove(this.scene.features)
+    }
+
+    // check parcel data is valid
+    // if (!parcel.content) {
+    //   return console.error('invalid parcel (no content)', parcel)
+    // }
+
+    // init new scene
+    const scene = {
+      main: new THREE.Object3D(),
+      features: this.features ? new THREE.Object3D() : null,
+      colliders: [],
+    }
+    // cache.set(this.parcel, scene)
+
+    // console.log('parcel', parcel)
+    let { x1, x2, y1, y2, z1, z2 } = parcel
+    let { voxels, palette, tileset, features } = parcel
+
+    if (!voxels) return console.error('invalid parcel (no voxels)', parcel)
+
+    // sometimes we have no palette so we use the default one
+    if (palette) {
+      palette = palette.map(hex => {
+        return new THREE.Color(hex).convertSRGBToLinear()
+        // .convertLinearToSRGB()
+      })
+    } else {
+      palette = DefaultPalette
+    }
+
+    const w = x2 - x1
+    const h = y2 - y1
+    const d = z2 - z1
+    const field = new Uint16Array(
+      pako.inflate(convertDataURIToBinary(voxels)).buffer
+    )
+
+    if (this.alignToGrid) {
+      scene.main.position.x = x1 * 2 // 0.7 scale / 2
+      scene.main.position.y = -1 // one block into ground
+      scene.main.position.z = -z1 * 2
+      scene.main.rotation.order = 'YXZ'
+      scene.main.rotation.y = Math.PI
+    } else {
+      scene.main.position.y = -1 // one block into ground
+      scene.main.rotation.order = 'YXZ'
+      scene.main.rotation.y = Math.PI
+    }
+
+    const solidGeometry = generateField(field, w, h, d, palette, false)
+    const transparentGeometry = generateField(field, w, h, d, palette, true)
+
+    const solidMaterial = this.getTileset(tileset, this.parcel)
+    // solid geometry
+    solidGeometry.computeVertexNormals()
+    solidGeometry.computeBoundsTree()
+    const solidMesh = new THREE.Mesh(solidGeometry, solidMaterial)
+    // solidMesh.frustumCulled = false
+    solidMesh.castShadow = true
+    solidMesh.receiveShadow = true
+    scene.main.add(solidMesh)
+    // window.solid = solidMesh
+
+    // transparent geometry
+    transparentGeometry.computeVertexNormals()
+    transparentGeometry.computeBoundsTree()
+    const transparentMaterial = this.getGlassMaterial()
+    const transparentMesh = new THREE.Mesh(
+      transparentGeometry,
+      transparentMaterial
+    )
+    // transparentMesh.frustumCulled = false
+    transparentMesh.castShadow = true
+    transparentMesh.receiveShadow = true
+    scene.main.add(transparentMesh)
+
+    if (this.parent.rigidbody) {
+      if (solidMesh.geometry.attributes.position.count) {
+        solidMesh.updateWorldMatrix(true, false)
+        solidMesh.initialMatrixWorld = solidMesh.matrixWorld.clone()
+        const collider = this.engine.physics.initCollider(
+          this.object3d,
+          solidMesh,
+          'trimesh'
+        )
+        this.engine.physics.buildCollider(collider)
+        scene.colliders.push(collider)
+      }
+      if (transparentMesh.geometry.attributes.position.count) {
+        transparentMesh.updateWorldMatrix(true, false)
+        transparentMesh.initialMatrixWorld = transparentMesh.matrixWorld.clone()
+        const collider = this.engine.physics.initCollider(
+          this.object3d,
+          transparentMesh,
+          'trimesh'
+        )
+        this.engine.physics.buildCollider(collider)
+        scene.colliders.push(collider)
+      }
+    }
+
+    this.object3d.add(scene.main)
+    if (scene.features) {
+      this.object3d.add(scene.features)
+    }
+    this.scene = scene
+    this.attachColliders()
+
+    // window.parcel = this
+
+    if (scene.features) {
+      for (const feature of features) {
+        try {
+          const { type } = feature
+          switch (type) {
+            case 'image': {
+              const { url, position, rotation, scale } = feature
+              // console.log('feature', feature)
+              const u = new URL(this.getProxyUrl(url))
+              //u.host = u.protocol.replace(/:/g, '-') + u.host.replace(/\./g, '-') + '.proxy.exokit.org';
+              // console.log('got u', u.href);
+              const geometry = imageGeometry
+              const material = getTextureMaterialCached(u.href)
+              const mesh = new THREE.Mesh(geometry, material)
+              // mesh.frustumCulled = false
+              mesh.castShadow = true
+              mesh.receiveShadow = true
+              mesh.position.fromArray(position)
+              mesh.position.x *= -1
+              mesh.position.multiplyScalar(2)
+              mesh.position.x -= w - 0.5
+              mesh.position.y += 0.5
+              mesh.position.z += d - 0.5
+              // console.log('pos x 1', url, position, mesh);
+              mesh.rotation.order = 'YXZ'
+              mesh.rotation.fromArray(rotation)
+              mesh.rotation.y *= -1
+              mesh.rotation.z *= -1
+              mesh.scale.fromArray(scale)
+              scene.features.add(mesh)
+              break
+            }
+            case 'nft-image': {
+              const { url, position, rotation, scale } = feature
+              const match = url.match(
+                /https:\/\/opensea\.io\/assets\/([^\/]+)\/([0-9]+)$/
+              )
+              if (match) {
+                const contract = match[1]
+                const token = match[2]
+                const u = `http://https-img-cryptovoxels-com.proxy.exokit.org/node/opensea?contract=${contract}&token=${token}&force_update=0`
+                const res = await fetch(this.getProxyUrl(u))
+                const j = await res.json()
+                const { image_url } = j
+                const geometry = imageGeometry
+                const material = getTextureMaterialCached(image_url)
+                const mesh = new THREE.Mesh(geometry, material)
+                // mesh.frustumCulled = false
+                // mesh.castShadow = true
+                // mesh.receiveShadow = true
+                mesh.position.fromArray(position)
+                mesh.position.x *= -1
+                mesh.position.multiplyScalar(2)
+                mesh.position.x -= w - 0.5
+                mesh.position.y += 0.5
+                mesh.position.z += d - 0.5
+                // console.log('pos x 2', url, position, mesh);
+                mesh.rotation.order = 'YXZ'
+                mesh.rotation.fromArray(rotation)
+                mesh.rotation.y *= -1
+                mesh.rotation.z *= -1
+                mesh.scale.fromArray(scale)
+                scene.features.add(mesh)
+              }
+              break
+            }
+            case 'vox-model': {
+              const { url, position, rotation, scale, flipX } = feature
+              // const u = new URL(url);
+              // u.host = u.protocol.replace(/:/g, '-') + u.host.replace(/\./g, '-') + '.proxy.exokit.org';
+              // const model = await _loadVoxCached(u.href);
+              //
+              //
+              // const u = `http://https-cdn-cryptovoxels-com.proxy.exokit.org/node/vox?url=${encodeURI(
+              //   url
+              // )}`
+              // const model = await loadVoxCached(u)
+              //
+              // console.log('got u', u.href, model, {
+              //   w,
+              //   h,
+              //   d,
+              //   position,
+              //   rotation,
+              //   scale,
+              // })
+              // console.log('feature', feature)
+              // const cdnUrl = `https://cdn.cryptovoxels.com/node/vox?url=${encodeURIComponent(
+              //   this.url
+              // )}&checksum=md5`
+              const model = await loadVox(this.getProxyUrl(url))
+              model.castShadow = true
+              model.receiveShadow = true
+
+              // NEW
+              // console.log({ w, h, d })
+              // console.log('position', position)
+              // model.position.fromArray(position)
+              // // model.position.x *= -1
+              // // model.position.multiplyScalar(2)
+              // // model.position.x -= w - 0.5
+              // // model.position.y += 0.5
+              // // model.position.z += d - 0.5
+              // model.rotation.order = 'YXZ'
+              // model.rotation.fromArray(rotation)
+              // // model.rotation.x *= -1;
+              // model.rotation.y *= -1
+              // model.rotation.z *= -1
+              // model.scale.fromArray(scale) //.multiplyScalar(0.04)
+              // // model.scale.z *= -1;
+
+              // OG
+              model.position.fromArray(position)
+              model.position.x *= -1
+              model.position.multiplyScalar(2)
+              model.position.x -= w - 0.5
+              model.position.y += 0.5
+              model.position.z += d - 0.5
+              model.rotation.order = 'YXZ'
+              model.rotation.fromArray(rotation)
+              // model.rotation.x *= -1;
+              model.rotation.y *= -1
+              model.rotation.z *= -1
+              model.scale.fromArray(scale).multiplyScalar(0.04)
+              // model.scale.z *= -1;
+
+              // model.frustumCulled = false
+              scene.features.add(model)
+              break
+            }
+          }
+        } catch (err) {
+          console.error(err)
+        }
+      }
+    }
+  }
+
+  getTileset(path, parcelId) {
+    const url = path
+      ? this.getProxyUrl(`https://cdn.cryptovoxels.com${path}`)
+      : this.getProxyUrl(`https://www.voxels.com/textures/atlas-ao.png`)
+
+    if (cache.has(url)) return cache.get(url)
+
+    const img = new Image()
+    img.crossOrigin = 'Anonymous'
+    img.src = url
+    img.onload = () => {
+      texture.needsUpdate = true
+    }
+    img.onerror = err => {
+      console.warn(err.stack)
+    }
+    const texture = new THREE.Texture(img)
+    texture.encoding = THREE.sRGBEncoding
+    texture.anisotropy = this.engine.graphics.maxAnisotropy
+    const material = new THREE.MeshStandardMaterial({
+      // color: 0x838383,
+      // color: 0x000000,
+      map: texture,
+      vertexColors: true,
+    })
+    material.name = path ? 'Atlas_' + parcelId : 'Atlas'
+    cache.set(url, material)
+    return material
+  }
+
+  getGlassMaterial() {
+    if (!glassMaterial) {
+      glassMaterial = new THREE.MeshStandardMaterial({
+        // map: texture,
+        // color: 0xFFFFFF,
+        // color: 0x000000,
+        vertexColors: true,
+        transparent: true,
+        opacity: 0.5,
+      })
+      glassMaterial.name = 'Glass'
+    }
+    return glassMaterial
+  }
+
+  getProxyUrl(url) {
+    return `${this.engine.driver.api.url}/proxy?url=${encodeURIComponent(url)}`
+  }
+
+  detachColliders() {
+    if (this.scene && this.parent.rigidbody) {
+      for (const collider of this.scene.colliders) {
+        this.parent.rigidbody.detachShape(collider.shape, true)
+        collider.shape.delete()
+      }
+      this.scene.colliders.length = 0
+    }
+  }
+
+  attachColliders() {
+    if (this.scene && this.parent.rigidbody) {
+      for (const collider of this.scene.colliders) {
+        this.parent.rigidbody.attachShape(collider.shape)
+      }
+    }
+  }
+
+  async onMount() {
+    if (!this.parent.object3d) {
+      throw new Error(
+        `<${this.name}> cannot be placed inside <${this.parent.name}>`
+      )
+    }
+    this.parent.object3d.add(this.object3d)
+    await waitForIdle()
+    this.build()
+  }
+
+  onUnmount() {
+    this.parent.object3d.remove(this.object3d)
+    this.detachColliders()
+  }
+
+  onModify(props) {
+    let rebuild = false
+    if (props.hasOwnProperty('id')) {
+      this.id = props.id
+    }
+    if (props.hasOwnProperty('name')) {
+      this.name = props.name || defaults.name
+    }
+    if (props.hasOwnProperty('position')) {
+      this.object3d.position.fromArray(props.position || defaults.position)
+    }
+    if (props.hasOwnProperty('rotation')) {
+      this.object3d.rotation.fromArray(props.rotation || defaults.rotation)
+    }
+    if (props.hasOwnProperty('parcel')) {
+      this.parcel = props.parcel
+      rebuild = true
+    }
+    if (props.hasOwnProperty('alignToGrid')) {
+      this.alignToGrid = isBoolean(props.alignToGrid)
+        ? props.alignToGrid
+        : defaults.alignToGrid
+      rebuild = true
+    }
+    if (props.hasOwnProperty('features')) {
+      this.features = isBoolean(props.features)
+        ? props.features
+        : defaults.features
+      rebuild = true
+    }
+    if (rebuild) {
+      this.build()
+    }
+  }
+
+  onDestroy() {
+    // ...
+  }
+
+  download() {
+    exporter.parse(
+      [this.object3d],
+      buffer => {
+        const blob = new Blob([buffer], { type: 'application/octet-stream' })
+        const link = document.createElement('a')
+        // link.style.position = 'absolute'
+        // link.style.top = '0'
+        // link.style.left = '0'
+        // link.style.zIndex = '999'
+        link.style.display = 'none'
+        document.body.appendChild(link)
+        link.href = URL.createObjectURL(blob)
+        link.download = 'parcel.glb'
+        link.click()
+      },
+      err => {
+        console.error(err)
+      },
+      { binary: true }
+    )
+  }
+
+  getRef() {
+    const self = this
+    return harden({
+      getPosition(vec3) {
+        vec3.x = self.object3d.position.x
+        vec3.y = self.object3d.position.y
+        vec3.z = self.object3d.position.z
+      },
+      setPosition(vec3) {
+        self.object3d?.position.copy(vec3)
+      },
+      setPositionX(x) {
+        self.object3d.position.x = x
+      },
+      setPositionY(y) {
+        self.object3d.position.y = y
+      },
+      setPositionZ(z) {
+        self.object3d.position.z = z
+      },
+      getRotation(eul) {
+        eul.x = self.object3d.rotation.x
+        eul.y = self.object3d.rotation.y
+        eul.z = self.object3d.rotation.z
+      },
+      setRotation(eul) {
+        self.object3d?.rotation.copy(eul)
+      },
+      setRotationX(x) {
+        self.object3d.rotation.x = x
+      },
+      setRotationY(y) {
+        self.object3d.rotation.y = y
+      },
+      setRotationZ(z) {
+        self.object3d.rotation.z = z
+      },
+      download() {
+        self.download()
+      },
+    })
+  }
+}
+
+const DefaultPalette = [
+  new THREE.Color(0xffffff),
+  new THREE.Color(0x888888),
+  new THREE.Color(0x000000),
+  new THREE.Color(0xff71ce),
+  new THREE.Color(0x01cdfe),
+  new THREE.Color(0x05ffa1),
+  new THREE.Color(0xb967ff),
+  new THREE.Color(0xfffb96),
+]
+
+const white = new THREE.Color(0xffffff)
+const red = new THREE.Color(0xff0000)
+
+function convertDataURIToBinary(base64) {
+  var raw = window.atob(base64)
+  var rawLength = raw.length
+  var array = new Uint8Array(new ArrayBuffer(rawLength))
+  for (let i = 0; i < rawLength; i++) {
+    array[i] = raw.charCodeAt(i)
+  }
+  return array
+}
+
+function generateField(field, width, height, depth, palette, transparent) {
+  const newVertices = new Float32Array(1024 * 1024)
+  const newUV = new Float32Array(1024 * 1024)
+  const indices = new Uint32Array(1024 * 1024)
+  const newColor = new Float32Array(1024 * 1024)
+
+  let vertexIndex = 0
+  let uvIndex = 0
+  let indexIndex = 0
+  let colorIndex = 0
+
+  for (let x = -1; x < width * 2; x++) {
+    for (let y = -1; y < height * 2; y++) {
+      for (let z = -1; z < depth * 2; z++) {
+        const i = getVoxel(field, width, height, depth, x, y, z)
+        const nX = getVoxel(field, width, height, depth, x + 1, y, z)
+        const nY = getVoxel(field, width, height, depth, x, y + 1, z)
+        const nZ = getVoxel(field, width, height, depth, x, y, z + 1)
+
+        if (isGeometry(i, transparent) !== isGeometry(nX, transparent)) {
+          const v = vertexIndex / 3
+
+          /* newVertices.Add(new Vector3(x + 1, y + 1, z));
+                  newVertices.Add(new Vector3(x + 1, y + 1, z + 1));
+                  newVertices.Add(new Vector3(x + 1, y, z));
+                  newVertices.Add(new Vector3(x + 1, y, z + 1)); */
+
+          newVertices[vertexIndex++] = x + 1
+          newVertices[vertexIndex++] = y + 1
+          newVertices[vertexIndex++] = z
+          newVertices[vertexIndex++] = x + 1
+          newVertices[vertexIndex++] = y + 1
+          newVertices[vertexIndex++] = z + 1
+          newVertices[vertexIndex++] = x + 1
+          newVertices[vertexIndex++] = y
+          newVertices[vertexIndex++] = z
+          newVertices[vertexIndex++] = x + 1
+          newVertices[vertexIndex++] = y
+          newVertices[vertexIndex++] = z + 1
+
+          if (i > nX) {
+            indices[indexIndex++] = v + 0
+            indices[indexIndex++] = v + 1
+            indices[indexIndex++] = v + 2
+
+            indices[indexIndex++] = v + 1
+            indices[indexIndex++] = v + 3
+            indices[indexIndex++] = v + 2
+
+            uvIndex = addUVs(i, transparent, newUV, uvIndex)
+
+            const c = uIntToColor(i, palette)
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+          } else {
+            indices[indexIndex++] = v + 2
+            indices[indexIndex++] = v + 1
+            indices[indexIndex++] = v + 0
+
+            indices[indexIndex++] = v + 2
+            indices[indexIndex++] = v + 3
+            indices[indexIndex++] = v + 1
+
+            uvIndex = addUVs(nX, transparent, newUV, uvIndex)
+
+            const c = uIntToColor(nX, palette)
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+          }
+        }
+
+        if (isGeometry(i, transparent) !== isGeometry(nY, transparent)) {
+          const v = vertexIndex / 3
+
+          /* newVertices.Add(new Vector3(x, y + 1, z));
+                  newVertices.Add(new Vector3(x + 1, y + 1, z));
+                  newVertices.Add(new Vector3(x, y + 1, z + 1));
+                  newVertices.Add(new Vector3(x + 1, y + 1, z + 1)); */
+
+          newVertices[vertexIndex++] = x
+          newVertices[vertexIndex++] = y + 1
+          newVertices[vertexIndex++] = z
+          newVertices[vertexIndex++] = x + 1
+          newVertices[vertexIndex++] = y + 1
+          newVertices[vertexIndex++] = z
+          newVertices[vertexIndex++] = x
+          newVertices[vertexIndex++] = y + 1
+          newVertices[vertexIndex++] = z + 1
+          newVertices[vertexIndex++] = x + 1
+          newVertices[vertexIndex++] = y + 1
+          newVertices[vertexIndex++] = z + 1
+
+          if (i < nY) {
+            indices[indexIndex++] = v + 0
+            indices[indexIndex++] = v + 1
+            indices[indexIndex++] = v + 2
+
+            indices[indexIndex++] = v + 1
+            indices[indexIndex++] = v + 3
+            indices[indexIndex++] = v + 2
+
+            uvIndex = addUVs(nY, transparent, newUV, uvIndex)
+
+            const c = uIntToColor(nY, palette)
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+          } else {
+            indices[indexIndex++] = v + 2
+            indices[indexIndex++] = v + 1
+            indices[indexIndex++] = v + 0
+
+            indices[indexIndex++] = v + 2
+            indices[indexIndex++] = v + 3
+            indices[indexIndex++] = v + 1
+
+            uvIndex = addUVs(i, transparent, newUV, uvIndex)
+
+            const c = uIntToColor(i, palette)
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+          }
+        }
+
+        if (isGeometry(i, transparent) !== isGeometry(nZ, transparent)) {
+          const v = vertexIndex / 3
+
+          /* newVertices.Add(new Vector3(x, y, z + 1));
+                  newVertices.Add(new Vector3(x + 1, y, z + 1));
+                  newVertices.Add(new Vector3(x, y + 1, z + 1));
+                  newVertices.Add(new Vector3(x + 1, y + 1, z + 1)); */
+
+          newVertices[vertexIndex++] = x
+          newVertices[vertexIndex++] = y
+          newVertices[vertexIndex++] = z + 1
+          newVertices[vertexIndex++] = x + 1
+          newVertices[vertexIndex++] = y
+          newVertices[vertexIndex++] = z + 1
+          newVertices[vertexIndex++] = x
+          newVertices[vertexIndex++] = y + 1
+          newVertices[vertexIndex++] = z + 1
+          newVertices[vertexIndex++] = x + 1
+          newVertices[vertexIndex++] = y + 1
+          newVertices[vertexIndex++] = z + 1
+
+          if (i > nZ) {
+            indices[indexIndex++] = v + 0
+            indices[indexIndex++] = v + 1
+            indices[indexIndex++] = v + 2
+
+            indices[indexIndex++] = v + 1
+            indices[indexIndex++] = v + 3
+            indices[indexIndex++] = v + 2
+
+            uvIndex = addUVs(i, transparent, newUV, uvIndex)
+
+            const c = uIntToColor(i, palette)
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+          } else {
+            indices[indexIndex++] = v + 2
+            indices[indexIndex++] = v + 1
+            indices[indexIndex++] = v + 0
+
+            indices[indexIndex++] = v + 2
+            indices[indexIndex++] = v + 3
+            indices[indexIndex++] = v + 1
+
+            uvIndex = addUVs(nZ, transparent, newUV, uvIndex)
+
+            const c = uIntToColor(nZ, palette)
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+            c.toArray(newColor, colorIndex)
+            colorIndex += 3
+          }
+        }
+      }
+    }
+  }
+  for (let i = 0; i < vertexIndex; i += 3) {
+    newVertices[i] = -newVertices[i]
+  }
+  for (let i = 0; i < indexIndex; i += 3) {
+    const a = indices[i + 1]
+    indices[i + 1] = indices[i]
+    indices[i] = a
+  }
+  const geometry = new THREE.BufferGeometry()
+  geometry.setAttribute(
+    'position',
+    new THREE.BufferAttribute(newVertices.subarray(0, vertexIndex), 3)
+  )
+  geometry.setAttribute(
+    'uv',
+    new THREE.BufferAttribute(newUV.subarray(0, uvIndex), 2)
+  )
+  geometry.setAttribute(
+    'color',
+    new THREE.BufferAttribute(newColor.subarray(0, colorIndex), 3)
+  )
+  geometry.setIndex(
+    new THREE.BufferAttribute(indices.subarray(0, indexIndex), 1)
+  )
+  return geometry
+}
+
+function getVoxel(field, width, height, depth, x, y, z) {
+  if (
+    x < 0 ||
+    y < 0 ||
+    z < 0 ||
+    x >= width * 2 ||
+    y >= height * 2 ||
+    z >= depth * 2
+  ) {
+    return 0
+  } else {
+    const index = z + y * (depth * 2) + x * (depth * 2) * (height * 2)
+    return field[index]
+  }
+}
+
+// var F = new THREE.Color(1, 0, 1)
+// var P = new THREE.Color(.12,.1,.1);
+
+function uIntToColor(color, palette) {
+  // console.log('uIntToColor', color)
+  //string binary = Convert.ToString(color, 2);
+  //binary = binary.Remove(binary.Length - 2 - 1, 2);
+  //uint newValue = Convert.ToUInt32(binary, 2);
+  //uint c = color;// - (byte) color;//  (byte)(color & ~(1 << 4));
+  // string debug = "";
+  if (color >= 32768) {
+    color -= 32768
+    // debug += "big ";
+  }
+  if (color === 0) {
+    return white
+  }
+  if (color > 32) {
+    const index = Math.floor(color / 32)
+    if (index >= palette.length) {
+      return red
+    }
+    return palette[index]
+  }
+  return white
+}
+
+function addUVs(index, transparent, uvs, uvIndex) {
+  if (transparent) {
+    uvs[uvIndex++] = 0
+    uvs[uvIndex++] = 0
+    uvs[uvIndex++] = 1
+    uvs[uvIndex++] = 0
+    uvs[uvIndex++] = 0
+    uvs[uvIndex++] = 1
+    uvs[uvIndex++] = 1
+    uvs[uvIndex++] = 1
+
+    return uvIndex
+  }
+
+  const s = (1.0 / 16 / 128) * 128
+
+  // long textureIndex = index - (1 << 15);
+  const textureIndex = index % 16
+  // const textureIndex = index & 15;
+
+  // if (textureIndex >= 32) {
+  //   // inverted
+  //   textureIndex = (textureIndex % 32) * 2 + 1
+  // } else {
+  //   textureIndex = (textureIndex % 32) * 2
+  // }
+
+  let x = (1.0 / 4) * ((textureIndex % 4) + 0.5)
+  let y = (1.0 / 4) * (Math.floor(textureIndex / 4.0) + 0.5)
+
+  y = 1.0 - y
+
+  uvs[uvIndex++] = x - s
+  uvs[uvIndex++] = y - s
+  uvs[uvIndex++] = x + s
+  uvs[uvIndex++] = y - s
+  uvs[uvIndex++] = x - s
+  uvs[uvIndex++] = y + s
+  uvs[uvIndex++] = x + s
+  uvs[uvIndex++] = y + s
+
+  return uvIndex
+}
+
+function isGeometry(index, transparent) {
+  return transparent ? index == 2 : index > 2
+}
+
+const imageGeometry = new THREE.PlaneGeometry(2, 2).applyMatrix4(
+  new THREE.Matrix4().makeScale(-1, 1, 1)
+)
+for (let i = 0; i < imageGeometry.index.array.length; i += 3) {
+  const a = imageGeometry.index.array[i + 1]
+  imageGeometry.index.array[i + 1] = imageGeometry.index.array[i]
+  imageGeometry.index.array[i] = a
+}
+
+function getTextureMaterial(u) {
+  const img = new Image()
+  img.onload = () => {
+    texture.needsUpdate = true
+  }
+  img.onerror = err => {
+    console.warn(err)
+  }
+  img.crossOrigin = 'Anonymous'
+  img.src = u
+  const texture = new THREE.Texture(img)
+  texture.encoding = THREE.sRGBEncoding
+  // texture.anisotropy = this.engine.graphics.maxAnisotropy // TODO
+  const material = new THREE.MeshBasicMaterial({
+    map: texture,
+    side: THREE.DoubleSide,
+    // transparent: true,
+  })
+  material.polygonOffset = true
+  material.polygonOffsetFactor = -1.0
+  material.polygonOffsetUnits = -4.0
+  return material
+}
+
+const texturedMaterialCache = {}
+function getTextureMaterialCached(u) {
+  let entry = texturedMaterialCache[u]
+  if (!entry) {
+    entry = getTextureMaterial(u)
+    texturedMaterialCache[u] = entry
+  }
+  return entry
+}
+
+function loadVox(url) {
+  return new Promise((resolve, reject) => {
+    voxLoader.load(url, function (chunks) {
+      for (let i = 0; i < chunks.length; i++) {
+        const chunk = chunks[i]
+        // displayPalette( chunk.palette );
+        const mesh = new VOXMesh(chunk)
+        // mesh.scale.setScalar( 0.0015 );
+        // scene.add( mesh );
+        resolve(mesh)
+      }
+    })
+  })
+}
